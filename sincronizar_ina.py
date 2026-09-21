@@ -74,8 +74,13 @@ ESTACIONES = {
 
 
 def get_json(path, params, retries=4, pausa=3):
+    # OJO: esta API no usa "?" estandar para separar el path de los
+    # parametros - usa "&" pegado directo (confirmado 2026-09-21: con
+    # "?" el server contesta "Argumento timeStart faltante" aunque el
+    # parametro este ahi, como si no viera nada despues del "?"). Rareza
+    # documentada asi en los propios ejemplos de /pub/datos/ (capabilities).
     qs = "&".join(f"{k}={v}" for k, v in params.items())
-    url = f"{BASE}/{path}?{qs}"
+    url = f"{BASE}/{path}&{qs}"
     ultimo_error = None
     for _ in range(retries):
         try:
