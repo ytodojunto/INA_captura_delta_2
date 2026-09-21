@@ -1,0 +1,7 @@
+{
+  "title": "Mensaje de error",
+  "mensaje": "Argumento timeStart faltante.",
+  "requestHeader": {
+    "request": "datos"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "generado_en": "2026-09-21T00:18:11.946225Z",
+  "pasos": [
+    {
+      "paso": "variables",
+      "url": "https://alerta.ina.gob.ar/pub/datos/variables?format=json",
+      "ok": true,
+      "cantidad": 95
+    },
+    {
+      "paso": "estaciones_red_23",
+      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=23&format=json",
+      "ok": true,
+      "cantidad": 1939
+    },
+    {
+      "paso": "estaciones_red_22",
+      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=22&format=json",
+      "ok": true,
+      "cantidad": 1939
+    },
+    {
+      "paso": "estaciones_red_32",
+      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=32&format=json",
+      "ok": true,
+      "cantidad": 1939
+    },
+    {
+      "paso": "estaciones_red_10",
+      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=10&format=json",
+      "ok": true,
+      "cantidad": 1939
+    },
+    {
+      "paso": "series_97",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=97&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "series_41",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=41&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "series_47",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=47&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "series_52",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=52&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "series_85",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=85&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "series_86",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=86&format=json",
+      "ok": true,
+      "cantidad": 10755
+    },
+    {
+      "paso": "datos_recientes_97",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=97&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_97",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=97&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    },
+    {
+      "paso": "datos_recientes_41",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=41&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_41",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=41&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    },
+    {
+      "paso": "datos_recientes_47",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=47&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_47",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=47&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    },
+    {
+      "paso": "datos_recientes_52",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=52&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_52",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=52&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    },
+    {
+      "paso": "datos_recientes_85",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=85&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_85",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=85&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    },
+    {
+      "paso": "datos_recientes_86",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=86&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0
+    },
+    {
+      "paso": "datos_historico_86",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=86&varId=None&format=json",
+      "ok": true,
+      "cantidad": 0,
+      "primer_registro": null,
+      "ultimo_registro": null
+    }
+  ]
+}
