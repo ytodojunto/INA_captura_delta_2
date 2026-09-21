@@ -29,18 +29,20 @@ ESTACIONES = {
 }
 
 
-def get_json(path, params, retries=3, pausa=2):
+def get_json(path, params, retries=2, pausa=3, timeout=150):
     qs = "&".join(f"{k}={v}" for k, v in params.items())
     url = f"{BASE}/{path}&{qs}"
+    ultimo_error = None
     for _ in range(retries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "descubrir_prono/0.1"})
-            with urllib.request.urlopen(req, timeout=45) as resp:
-                return json.loads(resp.read()), url
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read()), url, None
         except Exception as e:
+            ultimo_error = f"{type(e).__name__}: {e}"
             time.sleep(pausa)
-            ultimo_error = str(e)
-    return None, url
+    print(f"   [ERROR real] {url} -> {ultimo_error}")
+    return None, url, ultimo_error
 
 
 def guardar(nombre, contenido):
@@ -52,7 +54,7 @@ def main():
     resumen = {"generado_en": datetime.utcnow().isoformat() + "Z", "estaciones": {}}
 
     print("== seriesProno: listado completo ==")
-    todas, url = get_json("seriesProno", {"format": "json"})
+    todas, url, err = get_json("seriesProno", {"format": "json"})
     if not todas:
         print("  [ERROR] no se pudo traer seriesProno")
         guardar("_resumen_prono.json", resumen)
@@ -73,22 +75,34 @@ def main():
         if propias:
             guardar(f"series_prono_{sitecode}_{slug}.json", propias)
 
-    # prueba real de datosProno para la primera estacion que tenga serie de prono
+    # prueba real de datosProno - una para San Fernando (el modelo
+    # marea_rdp_regre es el que mas nos interesa comparar) y otra para
+    # Corrientes (representa el pronostico "tabprono_central" del tramo
+    # medio). datosProno pide seriesId Y (calId o corId), no alcanza
+    # con seriesId solo (confirmado 2026-09-21: sin calId/corId contesta
+    # "Falta parametro calId o corId").
     print("\n== Prueba real de datosProno ==")
     hoy = datetime.utcnow().date()
     en_14_dias = hoy + timedelta(days=14)
-    for sitecode, slug in ESTACIONES.items():
-        propias = resumen["estaciones"][slug]["series"]
+
+    pruebas = [
+        (52, "san_fernando"),
+        (19, "corrientes"),
+    ]
+    for sitecode, slug in pruebas:
+        propias = resumen["estaciones"].get(slug, {}).get("series", [])
         if not propias:
+            print(f"-- {slug}: sin serie de prono, se omite")
             continue
         serie = propias[0]
         series_id = serie.get("seriesid")
-        var_id = serie.get("varid")
-        print(f"-- probando con {slug} (seriesId={series_id}, varId={var_id})")
-        data, url = get_json("datosProno", {
+        cal_id = serie.get("calid")
+        print(f"-- probando con {slug} (seriesId={series_id}, calId={cal_id}, modelo={serie.get('cal_name')})")
+        data, url, err = get_json("datosProno", {
             "timeStart": hoy.isoformat(),
             "timeEnd": en_14_dias.isoformat(),
             "seriesId": series_id,
+            "calId": cal_id,
             "format": "json",
         })
         if data:
@@ -96,7 +110,8 @@ def main():
             print(f"   OK, guardado. url usada: {url}")
         else:
             print(f"   [ERROR] no se pudo traer datosProno para {slug}")
-        break  # una sola estacion de prueba alcanza para ver la estructura
+            guardar(f"prueba_datosProno_{sitecode}_{slug}_FALLO.json",
+                    {"url_intentada": url, "error_real": err})
 
     guardar("_resumen_prono.json", resumen)
     print("\nListo. Revisar data/discovery_prono/_resumen_prono.json")
