@@ -1,0 +1,30 @@
+name: Descubrir API INA (delta y mareografos)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  descubrir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Correr discovery
+        run: python descubrir_ina.py
+
+      - name: Commitear resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/discovery/
+          git diff --staged --quiet || git commit -m "Discovery API INA $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
