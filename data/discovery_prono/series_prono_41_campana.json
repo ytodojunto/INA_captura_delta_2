@@ -1,0 +1,19 @@
+[
+  {
+    "seriesid": 3405,
+    "sitecode": 41,
+    "estacion_nombre": "Campana",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 2,
+    "var_nombre": "Altura hidrométrica",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 489,
+    "cal_name": "288_ajuste_salidas",
+    "cal_model": null,
+    "forecastdate": "2026-09-21T12:25:04.439",
+    "corid": 1219288
+  }
+]

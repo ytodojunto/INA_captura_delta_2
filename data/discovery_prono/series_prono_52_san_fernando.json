@@ -1,0 +1,19 @@
+[
+  {
+    "seriesid": 26202,
+    "sitecode": 52,
+    "estacion_nombre": "San Fernando",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 2,
+    "var_nombre": "Altura hidrométrica",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 432,
+    "cal_name": "regre_sfer",
+    "cal_model": "marea_rdp_regre",
+    "forecastdate": "2026-09-21T03:00:00",
+    "corid": 1219282
+  }
+]

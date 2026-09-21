@@ -1,0 +1,19 @@
+[
+  {
+    "seriesid": 1542,
+    "sitecode": 30,
+    "estacion_nombre": "Santa Fe",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 2,
+    "var_nombre": "Altura hidrométrica",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 289,
+    "cal_name": "tabprono_central",
+    "cal_model": "tabprono",
+    "forecastdate": "2026-09-18T00:00:00",
+    "corid": 1219278
+  }
+]

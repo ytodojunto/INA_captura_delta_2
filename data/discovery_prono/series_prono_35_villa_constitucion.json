@@ -1,0 +1,19 @@
+[
+  {
+    "seriesid": 34874,
+    "sitecode": 35,
+    "estacion_nombre": "Villa Constitución",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 67,
+    "var_nombre": "Altura hidrométrica media semanal",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 499,
+    "cal_name": "parana_estacional_sissa",
+    "cal_model": null,
+    "forecastdate": "2026-09-21T09:00:00",
+    "corid": 1219223
+  }
+]

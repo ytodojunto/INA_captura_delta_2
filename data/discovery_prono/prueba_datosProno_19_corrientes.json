@@ -1,0 +1,11 @@
+{
+  "title": "Mensaje de error",
+  "mensaje": "Falta parametro calId o corId",
+  "requestHeader": {
+    "request": "datosProno",
+    "timeStart": "2026-09-21",
+    "timeEnd": "2026-10-05",
+    "seriesId": "1540",
+    "format": "json"
+  }
+}

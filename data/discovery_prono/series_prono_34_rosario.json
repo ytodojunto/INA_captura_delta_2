@@ -1,0 +1,36 @@
+[
+  {
+    "seriesid": 3412,
+    "sitecode": 34,
+    "estacion_nombre": "Rosario",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 2,
+    "var_nombre": "Altura hidrométrica",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 289,
+    "cal_name": "tabprono_central",
+    "cal_model": "tabprono",
+    "forecastdate": "2026-09-18T00:00:00",
+    "corid": 1219278
+  },
+  {
+    "seriesid": 34873,
+    "sitecode": 34,
+    "estacion_nombre": "Rosario",
+    "estacion_tabla": "alturas_prefe",
+    "red_nombre": "escalas Prefectura Nacional",
+    "varid": 67,
+    "var_nombre": "Altura hidrométrica media semanal",
+    "proc_nombre": "pronóstico",
+    "unitid": 11,
+    "unit_nombre": "metros",
+    "calid": 499,
+    "cal_name": "parana_estacional_sissa",
+    "cal_model": null,
+    "forecastdate": "2026-09-21T09:00:00",
+    "corid": 1219223
+  }
+]

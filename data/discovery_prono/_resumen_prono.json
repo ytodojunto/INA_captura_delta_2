@@ -1,0 +1,441 @@
+{
+  "generado_en": "2026-09-21T17:35:16.771612Z",
+  "estaciones": {
+    "corrientes": {
+      "sitecode": 19,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 1540,
+          "sitecode": 19,
+          "estacion_nombre": "Corrientes",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        },
+        {
+          "seriesid": 34863,
+          "sitecode": 19,
+          "estacion_nombre": "Corrientes",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "barranqueras": {
+      "sitecode": 20,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 3523,
+          "sitecode": 20,
+          "estacion_nombre": "Barranqueras",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        }
+      ]
+    },
+    "goya": {
+      "sitecode": 23,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 3524,
+          "sitecode": 23,
+          "estacion_nombre": "Goya",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        },
+        {
+          "seriesid": 34866,
+          "sitecode": 23,
+          "estacion_nombre": "Goya",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "parana_ciudad": {
+      "sitecode": 29,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 3408,
+          "sitecode": 29,
+          "estacion_nombre": "Paraná",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        },
+        {
+          "seriesid": 34870,
+          "sitecode": 29,
+          "estacion_nombre": "Paraná",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "santa_fe": {
+      "sitecode": 30,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 1542,
+          "sitecode": 30,
+          "estacion_nombre": "Santa Fe",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        }
+      ]
+    },
+    "diamante": {
+      "sitecode": 31,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 34871,
+          "sitecode": 31,
+          "estacion_nombre": "Diamante",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "victoria": {
+      "sitecode": 32,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "san_lorenzo_san_martin": {
+      "sitecode": 33,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 34872,
+          "sitecode": 33,
+          "estacion_nombre": "San Lorenzo (San Martín)",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "rosario": {
+      "sitecode": 34,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 3412,
+          "sitecode": 34,
+          "estacion_nombre": "Rosario",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 289,
+          "cal_name": "tabprono_central",
+          "cal_model": "tabprono",
+          "forecastdate": "2026-09-18T00:00:00",
+          "corid": 1219278
+        },
+        {
+          "seriesid": 34873,
+          "sitecode": 34,
+          "estacion_nombre": "Rosario",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "villa_constitucion": {
+      "sitecode": 35,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 34874,
+          "sitecode": 35,
+          "estacion_nombre": "Villa Constitución",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 499,
+          "cal_name": "parana_estacional_sissa",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T09:00:00",
+          "corid": 1219223
+        }
+      ]
+    },
+    "san_nicolas": {
+      "sitecode": 36,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 3414,
+          "sitecode": 36,
+          "estacion_nombre": "San Nicolás",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 442,
+          "cal_name": "regre_delta_vcons_snico",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T12:00:00",
+          "corid": 1219287
+        },
+        {
+          "seriesid": 3414,
+          "sitecode": 36,
+          "estacion_nombre": "San Nicolás",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 489,
+          "cal_name": "288_ajuste_salidas",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T12:25:04.439",
+          "corid": 1219288
+        }
+      ]
+    },
+    "ramallo": {
+      "sitecode": 37,
+      "cantidad_series_prono": 2,
+      "series": [
+        {
+          "seriesid": 3415,
+          "sitecode": 37,
+          "estacion_nombre": "Ramallo",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 442,
+          "cal_name": "regre_delta_vcons_snico",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T12:00:00",
+          "corid": 1219287
+        },
+        {
+          "seriesid": 3415,
+          "sitecode": 37,
+          "estacion_nombre": "Ramallo",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 489,
+          "cal_name": "288_ajuste_salidas",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T12:25:04.439",
+          "corid": 1219288
+        }
+      ]
+    },
+    "san_pedro": {
+      "sitecode": 38,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "baradero": {
+      "sitecode": 39,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "campana": {
+      "sitecode": 41,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 3405,
+          "sitecode": 41,
+          "estacion_nombre": "Campana",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 489,
+          "cal_name": "288_ajuste_salidas",
+          "cal_model": null,
+          "forecastdate": "2026-09-21T12:25:04.439",
+          "corid": 1219288
+        }
+      ]
+    },
+    "ibicuy": {
+      "sitecode": 45,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "martin_garcia": {
+      "sitecode": 47,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "san_fernando": {
+      "sitecode": 52,
+      "cantidad_series_prono": 1,
+      "series": [
+        {
+          "seriesid": 26202,
+          "sitecode": 52,
+          "estacion_nombre": "San Fernando",
+          "estacion_tabla": "alturas_prefe",
+          "red_nombre": "escalas Prefectura Nacional",
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "proc_nombre": "pronóstico",
+          "unitid": 11,
+          "unit_nombre": "metros",
+          "calid": 432,
+          "cal_name": "regre_sfer",
+          "cal_model": "marea_rdp_regre",
+          "forecastdate": "2026-09-21T03:00:00",
+          "corid": 1219282
+        }
+      ]
+    },
+    "buenos_aires": {
+      "sitecode": 85,
+      "cantidad_series_prono": 0,
+      "series": []
+    },
+    "la_plata": {
+      "sitecode": 86,
+      "cantidad_series_prono": 0,
+      "series": []
+    }
+  }
+}
