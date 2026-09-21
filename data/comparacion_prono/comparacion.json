@@ -1,5 +1,106 @@
 {
-  "generado_en": "2026-09-21T17:55:58.379493Z",
+  "generado_en": "2026-09-21T18:04:35.133224Z",
   "ventana_backtest_dias": 60,
-  "estaciones": {}
+  "estaciones": {
+    "corrientes": {
+      "sitecode": 19,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "barranqueras": {
+      "sitecode": 20,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "goya": {
+      "sitecode": 23,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "parana_ciudad": {
+      "sitecode": 29,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "santa_fe": {
+      "sitecode": 30,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "diamante": {
+      "sitecode": 31,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "victoria": {
+      "sitecode": 32,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "san_lorenzo_san_martin": {
+      "sitecode": 33,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "rosario": {
+      "sitecode": 34,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "villa_constitucion": {
+      "sitecode": 35,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "san_nicolas": {
+      "sitecode": 36,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "ramallo": {
+      "sitecode": 37,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "san_pedro": {
+      "sitecode": 38,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "baradero": {
+      "sitecode": 39,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "campana": {
+      "sitecode": 41,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "ibicuy": {
+      "sitecode": 45,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "martin_garcia": {
+      "sitecode": 47,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "san_fernando": {
+      "sitecode": 52,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "buenos_aires": {
+      "sitecode": 85,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    },
+    "la_plata": {
+      "sitecode": 86,
+      "n_comparaciones": 0,
+      "nota": "0 corridas de esta estacion en la ventana all=true"
+    }
+  }
 }
