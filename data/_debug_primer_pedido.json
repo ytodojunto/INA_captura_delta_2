@@ -1,0 +1,10 @@
+{
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=1901-01-02&timeEnd=1906-01-01&siteCode=19&varId=2&format=json",
+  "respuesta_cruda": {
+    "title": "Mensaje de error",
+    "mensaje": "Argumento timeStart faltante.",
+    "requestHeader": {
+      "request": "datos"
+    }
+  }
+}
