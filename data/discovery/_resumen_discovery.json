@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-21T00:35:50.270266Z",
+  "generado_en": "2026-09-21T00:48:29.372202Z",
   "pasos": [
     {
       "paso": "variables",
@@ -77,6 +77,96 @@
       "paso": "series_86",
       "ok": true,
       "cantidad": 12,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_33",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_34",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_35",
+      "ok": true,
+      "cantidad": 20,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_36",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_37",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_38",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_39",
+      "ok": true,
+      "cantidad": 18,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_45",
+      "ok": true,
+      "cantidad": 20,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_19",
+      "ok": true,
+      "cantidad": 24,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_20",
+      "ok": true,
+      "cantidad": 17,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_23",
+      "ok": true,
+      "cantidad": 17,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_29",
+      "ok": true,
+      "cantidad": 26,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_30",
+      "ok": true,
+      "cantidad": 20,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_31",
+      "ok": true,
+      "cantidad": 21,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_32",
+      "ok": true,
+      "cantidad": 21,
       "filtrado": "local"
     },
     {
@@ -444,8 +534,1442 @@
       ]
     },
     {
-      "paso": "datos_validacion_brazo_largo",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=97&varId=2&format=json",
+      "paso": "profundidad_33",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 33,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1909-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 44056
+        },
+        {
+          "seriesid": 3411,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3438,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29641,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25511,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29621,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26275,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20447
+        },
+        {
+          "seriesid": 25631,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25725,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26242,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34872,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26220,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_34",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 34,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1884-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 53707
+        },
+        {
+          "seriesid": 3412,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3387,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29644,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25512,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29622,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26276,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1884-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 51391
+        },
+        {
+          "seriesid": 25597,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25691,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26243,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34873,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26221,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_35",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 35,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1974-01-01T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 18605
+        },
+        {
+          "seriesid": 3413,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3440,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29646,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25513,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1974-05-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 516
+        },
+        {
+          "seriesid": 26277,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1974-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 16545
+        },
+        {
+          "seriesid": 25593,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 262
+        },
+        {
+          "seriesid": 25687,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 262
+        },
+        {
+          "seriesid": 26244,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34874,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26222,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_36",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 36,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1904-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 45745
+        },
+        {
+          "seriesid": 3414,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3441,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29648,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3534,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29620,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26278,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20602
+        },
+        {
+          "seriesid": 25581,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25675,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26245,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34875,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26223,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_37",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 37,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1904-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 45671
+        },
+        {
+          "seriesid": 3415,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3442,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29649,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3535,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29611,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26279,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20515
+        },
+        {
+          "seriesid": 25642,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25736,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26246,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34876,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26224,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_38",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 38,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1901-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 47196
+        },
+        {
+          "seriesid": 3416,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3443,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29650,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3536,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29612,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26280,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20575
+        },
+        {
+          "seriesid": 25598,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25692,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26227,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34877,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26225,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_39",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 39,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1976-01-01T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 17100
+        },
+        {
+          "seriesid": 3418,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3445,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29653,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3537,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1976-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 484
+        },
+        {
+          "seriesid": 29613,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26281,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1976-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 15402
+        },
+        {
+          "seriesid": 25643,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 250
+        },
+        {
+          "seriesid": 25737,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 250
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_45",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 45,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1983-01-01T06:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 15275
+        },
+        {
+          "seriesid": 3420,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3447,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29654,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3540,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1983-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 468
+        },
+        {
+          "seriesid": 29616,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26287,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1983-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 13873
+        },
+        {
+          "seriesid": 25657,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25751,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26228,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26226,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_19",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 19,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1901-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 47948
+        },
+        {
+          "seriesid": 1540,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 1541,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25497,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 26261,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1901-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 45831
+        },
+        {
+          "seriesid": 25600,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25694,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26230,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34863,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26208,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_20",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 20,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1906-03-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 45670
+        },
+        {
+          "seriesid": 3523,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3381,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25498,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 26262,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20443
+        },
+        {
+          "seriesid": 25606,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25700,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26231,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 35356,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26209,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_23",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 23,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1903-06-17T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 46649
+        },
+        {
+          "seriesid": 3524,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3382,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25501,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 26265,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1903-06-16T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 44447
+        },
+        {
+          "seriesid": 25614,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25708,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26234,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34866,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26212,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_29",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 29,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1902-02-22T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 47006
+        },
+        {
+          "seriesid": 3408,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3385,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29633,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25507,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 26271,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1902-12-31T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 44631
+        },
+        {
+          "seriesid": 31525,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25672,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25766,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26238,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34870,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26216,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_30",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 30,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1925-01-02T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 39133
+        },
+        {
+          "seriesid": 1542,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 1543,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25508,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 26272,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20602
+        },
+        {
+          "seriesid": 25596,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25690,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26239,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 35366,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26217,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 31607,
+          "varid": 88,
+          "var_nombre": "altura geométrica diaria",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_31",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 31,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1902-04-25T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 47424
+        },
+        {
+          "seriesid": 3409,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3436,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29636,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3532,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 647
+        },
+        {
+          "seriesid": 29617,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26273,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1902-04-24T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 45268
+        },
+        {
+          "seriesid": 25610,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25704,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 26240,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 34871,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26218,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_32",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 32,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1964-01-01T09:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 24528
+        },
+        {
+          "seriesid": 3419,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3446,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29652,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3533,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 639
+        },
+        {
+          "seriesid": 29619,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26274,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1970-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 20148
+        },
+        {
+          "seriesid": 25639,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 337
+        },
+        {
+          "seriesid": 25733,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 337
+        },
+        {
+          "seriesid": 26241,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": "2023-09-04T00:00:00",
+          "to_date": "2026-08-31T00:00:00",
+          "obs_count": 157
+        },
+        {
+          "seriesid": 35368,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26219,
+          "varid": 67,
+          "var_nombre": "Altura hidrométrica media semanal",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "datos_validacion_san_fernando",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=52&varId=2&format=json",
       "ok": true,
       "cantidad": 0,
       "filtro_parece_funcionar": true,
