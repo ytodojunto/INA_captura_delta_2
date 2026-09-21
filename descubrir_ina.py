@@ -92,99 +92,95 @@ def main():
     else:
         resumen["pasos"].append({"paso": "variables", "url": url, "ok": False})
 
-    # ---------- 2. Estaciones por red de interes ----------
-    print("\n== Estaciones por red ==")
-    for red_id, slug in REDES_INTERES.items():
-        print(f"-- redId={red_id} ({slug})")
-        data, url = get_json("estaciones", {"redId": red_id, "format": "json"})
-        if data:
-            n = len(data.get("data", []))
-            print(f"   {n} estaciones")
-            guardar(f"estaciones_red_{red_id}_{slug}.json", data)
-            resumen["pasos"].append({"paso": f"estaciones_red_{red_id}", "url": url,
-                                      "ok": True, "cantidad": n})
-        else:
-            resumen["pasos"].append({"paso": f"estaciones_red_{red_id}", "url": url, "ok": False})
-        time.sleep(1)
+    # ---------- 2. Estaciones: bajar TODO una vez y filtrar local ----------
+    # El filtro redId por query string no esta funcionando en el server
+    # (devuelve el listado completo sin filtrar, se verifico empiricamente
+    # el 2026-09-20 - mismo total para cualquier redId probado). Bajamos
+    # el listado completo una sola vez y filtramos nosotros en Python.
+    print("\n== Estaciones (listado completo, filtrado local) ==")
+    todas_estaciones, url_est = get_json("estaciones", {"format": "json"})
+    estaciones_data = todas_estaciones.get("data", []) if todas_estaciones else []
+    print(f"   total en la base: {len(estaciones_data)}")
+    resumen["pasos"].append({"paso": "estaciones_completo", "url": url_est,
+                              "ok": bool(todas_estaciones), "cantidad": len(estaciones_data)})
 
-    # ---------- 3. Series disponibles por estacion de interes ----------
-    print("\n== Series por estacion de interes ==")
+    for red_id, slug in REDES_INTERES.items():
+        filtradas = [e for e in estaciones_data if e.get("redes_id") == red_id]
+        print(f"-- redId={red_id} ({slug}): {len(filtradas)} estaciones")
+        guardar(f"estaciones_red_{red_id}_{slug}.json", {"data": filtradas})
+        resumen["pasos"].append({"paso": f"estaciones_red_{red_id}", "ok": True,
+                                  "cantidad": len(filtradas), "filtrado": "local"})
+
+    # ---------- 3. Series: bajar TODO una vez y filtrar local ----------
+    # Mismo problema: el filtro siteCode tampoco esta funcionando.
+    print("\n== Series (listado completo, filtrado local) ==")
+    todas_series, url_ser = get_json("series", {"format": "json"})
+    series_data = todas_series.get("data", []) if todas_series else []
+    print(f"   total en la base: {len(series_data)}")
+    resumen["pasos"].append({"paso": "series_completo", "url": url_ser,
+                              "ok": bool(todas_series), "cantidad": len(series_data)})
+
     series_por_estacion = {}
     for sitecode, slug in ESTACIONES_INTERES.items():
-        print(f"-- sitecode={sitecode} ({slug})")
-        data, url = get_json("series", {"siteCode": sitecode, "format": "json"})
-        if data:
-            n = len(data.get("data", []))
-            print(f"   {n} series")
-            guardar(f"series_{sitecode}_{slug}.json", data)
-            series_por_estacion[sitecode] = data.get("data", [])
-            resumen["pasos"].append({"paso": f"series_{sitecode}", "url": url,
-                                      "ok": True, "cantidad": n})
-        else:
-            resumen["pasos"].append({"paso": f"series_{sitecode}", "url": url, "ok": False})
-        time.sleep(1)
+        filtradas = [s for s in series_data if s.get("sitecode") == sitecode]
+        print(f"-- sitecode={sitecode} ({slug}): {len(filtradas)} series")
+        guardar(f"series_{sitecode}_{slug}.json", {"data": filtradas})
+        series_por_estacion[sitecode] = filtradas
+        resumen["pasos"].append({"paso": f"series_{sitecode}", "ok": True,
+                                  "cantidad": len(filtradas), "filtrado": "local"})
 
-    # ---------- 4. Muestra de datos + profundidad historica ----------
-    # Se pide un rango bien amplio (desde 2000) para ver hasta donde
-    # responde de verdad la API, y ademas una muestra reciente para
-    # chequear la granularidad temporal (horaria? diaria?).
-    print("\n== Muestra de datos y profundidad historica ==")
-    hoy = datetime.utcnow().date()
-    hace_10_dias = hoy - timedelta(days=10)
-
+    # ---------- 4. Profundidad historica (de la metadata de la serie) ----------
+    # La propia respuesta de "series" ya trae from_date/to_date/obs_count
+    # por serie - no hace falta pegarle a "datos" con rango amplio para
+    # saber la profundidad historica real, la metadata ya lo dice.
+    print("\n== Profundidad historica (segun metadata de series) ==")
+    profundidad = {}
     for sitecode, slug in ESTACIONES_INTERES.items():
         series = series_por_estacion.get(sitecode, [])
-        if not series:
-            print(f"-- sitecode={sitecode} ({slug}): sin series, se omite")
-            continue
-        # usamos el primer varId de altura hidrometrica que aparezca (varId suele ser 2)
-        var_id = series[0].get("varId")
-        print(f"-- sitecode={sitecode} ({slug}), varId={var_id}")
+        # nos quedamos con las series de altura hidrometrica (varid=2 tipicamente)
+        series_altura = [s for s in series if s.get("var_nombre", "").lower().startswith("altura")]
+        if not series_altura:
+            series_altura = series  # fallback: todas si no hay match por nombre
+        info = [{
+            "seriesid": s.get("seriesid"), "varid": s.get("varid"),
+            "var_nombre": s.get("var_nombre"), "from_date": s.get("from_date"),
+            "to_date": s.get("to_date"), "obs_count": s.get("obs_count"),
+        } for s in series_altura]
+        profundidad[sitecode] = info
+        for s in info:
+            print(f"-- sitecode={sitecode} ({slug}) varid={s['varid']} ({s['var_nombre']}): "
+                  f"{s['from_date']} -> {s['to_date']} ({s['obs_count']} obs)")
+        resumen["pasos"].append({"paso": f"profundidad_{sitecode}", "ok": True, "series": info})
+    guardar("profundidad_historica.json", profundidad)
 
-        # 4a. Muestra reciente (10 dias) para ver granularidad
-        data_reciente, url_r = get_json("datos", {
-            "timeStart": hace_10_dias.isoformat(),
-            "timeEnd": hoy.isoformat(),
-            "siteCode": sitecode,
-            "varId": var_id,
-            "format": "json",
-        })
-        if data_reciente:
-            n = len(data_reciente.get("data", []))
-            print(f"   ultimos 10 dias: {n} registros")
-            guardar(f"datos_recientes_{sitecode}_{slug}.json", data_reciente)
-            resumen["pasos"].append({"paso": f"datos_recientes_{sitecode}", "url": url_r,
-                                      "ok": True, "cantidad": n})
-        else:
-            resumen["pasos"].append({"paso": f"datos_recientes_{sitecode}", "url": url_r, "ok": False})
-        time.sleep(1)
-
-        # 4b. Rango amplio desde 2000 para ver profundidad historica real
-        data_historico, url_h = get_json("datos", {
-            "timeStart": "2000-01-01",
-            "timeEnd": hoy.isoformat(),
-            "siteCode": sitecode,
-            "varId": var_id,
-            "format": "json",
-        })
-        if data_historico:
-            regs = data_historico.get("data", [])
-            n = len(regs)
-            primera = regs[0].get("timestart") if regs else None
-            ultima = regs[-1].get("timestart") if regs else None
-            print(f"   historico 2000->hoy: {n} registros, {primera} -> {ultima}")
-            # no guardamos el historico completo (puede ser pesado), solo metadata + primeros/ultimos
-            resumen["pasos"].append({
-                "paso": f"datos_historico_{sitecode}", "url": url_h, "ok": True,
-                "cantidad": n, "primer_registro": primera, "ultimo_registro": ultima,
-            })
-            guardar(f"historico_meta_{sitecode}_{slug}.json", {
-                "cantidad": n, "primer_registro": primera, "ultimo_registro": ultima,
-                "primeros_5": regs[:5], "ultimos_5": regs[-5:],
-            })
-        else:
-            resumen["pasos"].append({"paso": f"datos_historico_{sitecode}", "url": url_h, "ok": False})
-        time.sleep(1)
+    # ---------- 5. Validacion puntual del endpoint "datos" ----------
+    # Un solo chequeo (Brazo Largo, ultimos 10 dias) para confirmar si el
+    # filtro siteCode+varId de "datos" funciona de verdad (a diferencia de
+    # "estaciones" y "series", que ignoran el filtro) y ver la granularidad
+    # temporal real (horaria, diaria, etc).
+    print("\n== Validacion puntual del endpoint 'datos' (Brazo Largo) ==")
+    hoy = datetime.utcnow().date()
+    hace_10_dias = hoy - timedelta(days=10)
+    series_bl = profundidad.get(97, [])
+    var_id_bl = series_bl[0]["varid"] if series_bl else 2
+    data_val, url_val = get_json("datos", {
+        "timeStart": hace_10_dias.isoformat(),
+        "timeEnd": hoy.isoformat(),
+        "siteCode": 97,
+        "varId": var_id_bl,
+        "format": "json",
+    })
+    if data_val:
+        regs = data_val.get("data", [])
+        n = len(regs)
+        print(f"   {n} registros en los ultimos 10 dias (varId={var_id_bl})")
+        guardar("datos_validacion_brazo_largo.json", data_val)
+        resumen["pasos"].append({"paso": "datos_validacion_brazo_largo", "url": url_val,
+                                  "ok": True, "cantidad": n,
+                                  "filtro_parece_funcionar": n < 5000,
+                                  "primeros_3": regs[:3]})
+    else:
+        resumen["pasos"].append({"paso": "datos_validacion_brazo_largo", "url": url_val, "ok": False})
 
     guardar("_resumen_discovery.json", resumen)
     print("\nListo. Revisar data/discovery/_resumen_discovery.json para el panorama general.")
