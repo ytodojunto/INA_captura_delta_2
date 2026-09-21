@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
 
       - name: Correr comparacion
-        run: python comparar_prono_ina.py
+        run: python comparar_prono_ina_v2.py
 
       - name: Commitear resultados
         if: always()
