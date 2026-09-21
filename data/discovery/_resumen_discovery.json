@@ -1,5 +1,5 @@
 {
-  "generado_en": "2026-09-21T00:18:11.946225Z",
+  "generado_en": "2026-09-21T00:35:50.270266Z",
   "pasos": [
     {
       "paso": "variables",
@@ -8,148 +8,448 @@
       "cantidad": 95
     },
     {
-      "paso": "estaciones_red_23",
-      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=23&format=json",
+      "paso": "estaciones_completo",
+      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?format=json",
       "ok": true,
       "cantidad": 1939
+    },
+    {
+      "paso": "estaciones_red_23",
+      "ok": true,
+      "cantidad": 5,
+      "filtrado": "local"
     },
     {
       "paso": "estaciones_red_22",
-      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=22&format=json",
       "ok": true,
-      "cantidad": 1939
+      "cantidad": 36,
+      "filtrado": "local"
     },
     {
       "paso": "estaciones_red_32",
-      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=32&format=json",
       "ok": true,
-      "cantidad": 1939
+      "cantidad": 18,
+      "filtrado": "local"
     },
     {
       "paso": "estaciones_red_10",
-      "url": "https://alerta.ina.gob.ar/pub/datos/estaciones?redId=10&format=json",
       "ok": true,
-      "cantidad": 1939
+      "cantidad": 89,
+      "filtrado": "local"
+    },
+    {
+      "paso": "series_completo",
+      "url": "https://alerta.ina.gob.ar/pub/datos/series?format=json",
+      "ok": true,
+      "cantidad": 10755
     },
     {
       "paso": "series_97",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=97&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 15,
+      "filtrado": "local"
     },
     {
       "paso": "series_41",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=41&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 17,
+      "filtrado": "local"
     },
     {
       "paso": "series_47",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=47&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 12,
+      "filtrado": "local"
     },
     {
       "paso": "series_52",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=52&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 18,
+      "filtrado": "local"
     },
     {
       "paso": "series_85",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=85&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 14,
+      "filtrado": "local"
     },
     {
       "paso": "series_86",
-      "url": "https://alerta.ina.gob.ar/pub/datos/series?siteCode=86&format=json",
       "ok": true,
-      "cantidad": 10755
+      "cantidad": 12,
+      "filtrado": "local"
     },
     {
-      "paso": "datos_recientes_97",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=97&varId=None&format=json",
+      "paso": "profundidad_97",
       "ok": true,
-      "cantidad": 0
+      "series": [
+        {
+          "seriesid": 97,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25575,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 26339,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25667,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25761,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
     },
     {
-      "paso": "datos_historico_97",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=97&varId=None&format=json",
+      "paso": "profundidad_41",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 41,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "1977-10-24T07:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 15945
+        },
+        {
+          "seriesid": 3405,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 3432,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29659,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25519,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "1977-10-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 529
+        },
+        {
+          "seriesid": 26283,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "1977-10-24T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 15281
+        },
+        {
+          "seriesid": 25647,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        },
+        {
+          "seriesid": 25741,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "1994-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 345
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_47",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 47,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "2006-01-01T04:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 7256
+        },
+        {
+          "seriesid": 25525,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 222
+        },
+        {
+          "seriesid": 26289,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 6535
+        },
+        {
+          "seriesid": 25662,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        },
+        {
+          "seriesid": 25756,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_52",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 52,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "2006-01-01T04:00:00",
+          "to_date": "2026-09-20T20:45:00",
+          "obs_count": 128609
+        },
+        {
+          "seriesid": 26202,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 31537,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29577,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25530,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 244
+        },
+        {
+          "seriesid": 26294,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 7241
+        },
+        {
+          "seriesid": 25638,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 198
+        },
+        {
+          "seriesid": 25732,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 198
+        },
+        {
+          "seriesid": 31605,
+          "varid": 85,
+          "var_nombre": "Altura hidrométrica horaria",
+          "from_date": "2022-07-01T00:00:00",
+          "to_date": "2026-09-20T15:00:00",
+          "obs_count": 31555
+        },
+        {
+          "seriesid": 31554,
+          "varid": 85,
+          "var_nombre": "Altura hidrométrica horaria",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 31606,
+          "varid": 86,
+          "var_nombre": "Altura geométrica horaria",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_85",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 85,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "2006-01-01T04:00:00",
+          "to_date": "2026-09-20T20:45:00",
+          "obs_count": 73399
+        },
+        {
+          "seriesid": 29580,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 29576,
+          "varid": 32,
+          "var_nombre": "Altura geométrica",
+          "from_date": null,
+          "to_date": null,
+          "obs_count": null
+        },
+        {
+          "seriesid": 25563,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 248
+        },
+        {
+          "seriesid": 26327,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 7458
+        },
+        {
+          "seriesid": 25636,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        },
+        {
+          "seriesid": 25730,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        }
+      ]
+    },
+    {
+      "paso": "profundidad_86",
+      "ok": true,
+      "series": [
+        {
+          "seriesid": 86,
+          "varid": 2,
+          "var_nombre": "Altura hidrométrica",
+          "from_date": "2006-01-01T04:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 10798
+        },
+        {
+          "seriesid": 25564,
+          "varid": 33,
+          "var_nombre": "Altura hidrométrica media mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-08-01T00:00:00",
+          "obs_count": 248
+        },
+        {
+          "seriesid": 26328,
+          "varid": 39,
+          "var_nombre": "Altura hidrométrica media diaria",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2026-09-19T00:00:00",
+          "obs_count": 7462
+        },
+        {
+          "seriesid": 25637,
+          "varid": 49,
+          "var_nombre": "Altura hidrométrica mínima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        },
+        {
+          "seriesid": 25731,
+          "varid": 50,
+          "var_nombre": "Altura hidrométrica máxima mensual",
+          "from_date": "2006-01-01T00:00:00",
+          "to_date": "2022-10-01T00:00:00",
+          "obs_count": 202
+        }
+      ]
+    },
+    {
+      "paso": "datos_validacion_brazo_largo",
+      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=97&varId=2&format=json",
       "ok": true,
       "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
-    },
-    {
-      "paso": "datos_recientes_41",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=41&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0
-    },
-    {
-      "paso": "datos_historico_41",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=41&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
-    },
-    {
-      "paso": "datos_recientes_47",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=47&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0
-    },
-    {
-      "paso": "datos_historico_47",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=47&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
-    },
-    {
-      "paso": "datos_recientes_52",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=52&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0
-    },
-    {
-      "paso": "datos_historico_52",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=52&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
-    },
-    {
-      "paso": "datos_recientes_85",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=85&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0
-    },
-    {
-      "paso": "datos_historico_85",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=85&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
-    },
-    {
-      "paso": "datos_recientes_86",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-11&timeEnd=2026-09-21&siteCode=86&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0
-    },
-    {
-      "paso": "datos_historico_86",
-      "url": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2000-01-01&timeEnd=2026-09-21&siteCode=86&varId=None&format=json",
-      "ok": true,
-      "cantidad": 0,
-      "primer_registro": null,
-      "ultimo_registro": null
+      "filtro_parece_funcionar": true,
+      "primeros_3": []
     }
   ]
 }

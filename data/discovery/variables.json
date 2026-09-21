@@ -3,10 +3,10 @@
     "request": "variables"
   },
   "responseHeader": {
-    "responseTimestamp": "2026-09-20T21:18:14",
-    "queryUrl": "request=variables",
     "request": "variables",
-    "creationTime": "2026-09-20T21:18:14-03:00"
+    "creationTime": "2026-09-20T21:35:53-03:00",
+    "queryUrl": "request=variables",
+    "responseTimestamp": "2026-09-20T21:35:53"
   },
   "data": [
     {
