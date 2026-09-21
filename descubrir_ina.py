@@ -33,7 +33,7 @@ BASE = "https://alerta.ina.gob.ar/pub/datos"
 OUT_DIR = Path("data/discovery")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Estaciones puntuales ya identificadas (sitecode: nombre)
+# Estaciones puntuales de interes (sitecode: nombre)
 ESTACIONES_INTERES = {
     97: "brazo_largo",
     41: "campana",
@@ -41,6 +41,29 @@ ESTACIONES_INTERES = {
     52: "san_fernando",
     85: "buenos_aires",
     86: "la_plata",
+    # tramo Rosario/San Lorenzo -> delta, agregadas 2026-09-21
+    33: "san_lorenzo_san_martin",
+    34: "rosario",
+    35: "villa_constitucion",
+    36: "san_nicolas",
+    37: "ramallo",
+    38: "san_pedro",
+    39: "baradero",
+    45: "ibicuy",
+    # tramo medio del Parana desde Corrientes hacia el delta (senal
+    # hidrologica, no mareal/eolica), agregadas 2026-09-21 a pedido:
+    # Corrientes es el primer punto donde ya esta mezclada el agua del
+    # Alto Parana con la del rio Paraguay, asi que no hace falta ir mas
+    # arriba (se descartan Posadas, Yacyreta y Confluencia con Brasil).
+    # Se propaga rio abajo con dias de retraso - insumo para el escenario
+    # de largo plazo, distinto de la senal de marea/viento del RDP
+    19: "corrientes",
+    20: "barranqueras",
+    23: "goya",
+    29: "parana_ciudad",
+    30: "santa_fe",
+    31: "diamante",
+    32: "victoria",
 }
 
 # Redes a inventariar completas
@@ -138,7 +161,7 @@ def main():
     for sitecode, slug in ESTACIONES_INTERES.items():
         series = series_por_estacion.get(sitecode, [])
         # nos quedamos con las series de altura hidrometrica (varid=2 tipicamente)
-        series_altura = [s for s in series if s.get("var_nombre", "").lower().startswith("altura")]
+        series_altura = [s for s in series if (s.get("var_nombre") or "").lower().startswith("altura")]
         if not series_altura:
             series_altura = series  # fallback: todas si no hay match por nombre
         info = [{
@@ -154,33 +177,37 @@ def main():
     guardar("profundidad_historica.json", profundidad)
 
     # ---------- 5. Validacion puntual del endpoint "datos" ----------
-    # Un solo chequeo (Brazo Largo, ultimos 10 dias) para confirmar si el
+    # Un solo chequeo (San Fernando, ultimos 10 dias) para confirmar si el
     # filtro siteCode+varId de "datos" funciona de verdad (a diferencia de
     # "estaciones" y "series", que ignoran el filtro) y ver la granularidad
-    # temporal real (horaria, diaria, etc).
-    print("\n== Validacion puntual del endpoint 'datos' (Brazo Largo) ==")
+    # temporal real (horaria, diaria, etc). Se usa San Fernando (52) en vez
+    # de Brazo Largo porque Brazo Largo no tiene serie con datos (ver
+    # profundidad_historica.json: from_date/to_date/obs_count en null).
+    print("\n== Validacion puntual del endpoint 'datos' (San Fernando) ==")
     hoy = datetime.utcnow().date()
     hace_10_dias = hoy - timedelta(days=10)
-    series_bl = profundidad.get(97, [])
-    var_id_bl = series_bl[0]["varid"] if series_bl else 2
+    series_sf = profundidad.get(52, [])
+    # preferimos la serie principal (varid=2) si esta, si no la primera disponible
+    serie_principal = next((s for s in series_sf if s["varid"] == 2 and s["obs_count"]), None)
+    var_id_sf = serie_principal["varid"] if serie_principal else (series_sf[0]["varid"] if series_sf else 2)
     data_val, url_val = get_json("datos", {
         "timeStart": hace_10_dias.isoformat(),
         "timeEnd": hoy.isoformat(),
-        "siteCode": 97,
-        "varId": var_id_bl,
+        "siteCode": 52,
+        "varId": var_id_sf,
         "format": "json",
     })
     if data_val:
         regs = data_val.get("data", [])
         n = len(regs)
-        print(f"   {n} registros en los ultimos 10 dias (varId={var_id_bl})")
-        guardar("datos_validacion_brazo_largo.json", data_val)
-        resumen["pasos"].append({"paso": "datos_validacion_brazo_largo", "url": url_val,
+        print(f"   {n} registros en los ultimos 10 dias (varId={var_id_sf})")
+        guardar("datos_validacion_san_fernando.json", data_val)
+        resumen["pasos"].append({"paso": "datos_validacion_san_fernando", "url": url_val,
                                   "ok": True, "cantidad": n,
                                   "filtro_parece_funcionar": n < 5000,
                                   "primeros_3": regs[:3]})
     else:
-        resumen["pasos"].append({"paso": "datos_validacion_brazo_largo", "url": url_val, "ok": False})
+        resumen["pasos"].append({"paso": "datos_validacion_san_fernando", "url": url_val, "ok": False})
 
     guardar("_resumen_discovery.json", resumen)
     print("\nListo. Revisar data/discovery/_resumen_discovery.json para el panorama general.")
