@@ -125,6 +125,7 @@ def main():
     estado = cargar_estado()
     ahora = datetime.now(timezone.utc).replace(tzinfo=None)
     resumen_run = {"inicio": datetime.utcnow().isoformat() + "Z", "estaciones": {}}
+    debug_guardado = False
 
     for sitecode, (slug, varid, from_date) in ESTACIONES.items():
         if tiempo_agotado():
@@ -163,6 +164,18 @@ def main():
             if data is None:
                 print(f"   [ERROR] {chunk_ini.date()} -> {chunk_fin.date()}: {error} (se reintenta la proxima corrida)")
                 break  # no avanzamos el estado para este tramo, se reintenta despues
+
+            if not debug_guardado:
+                (DATA_DIR / "_debug_primer_pedido.json").write_text(
+                    json.dumps({
+                        "url_pedida": f"{BASE}/datos?timeStart={chunk_ini.date().isoformat()}"
+                                      f"&timeEnd={chunk_fin.date().isoformat()}&siteCode={sitecode}"
+                                      f"&varId={varid}&format=json",
+                        "respuesta_cruda": data,
+                    }, indent=2, ensure_ascii=False)
+                )
+                debug_guardado = True
+                print("   [debug] respuesta cruda del primer pedido guardada en data/_debug_primer_pedido.json")
 
             filas = data.get("data", [])
             if filas:
