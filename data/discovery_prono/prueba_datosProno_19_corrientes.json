@@ -1,11 +1,73 @@
 {
-  "title": "Mensaje de error",
-  "mensaje": "Falta parametro calId o corId",
   "requestHeader": {
     "request": "datosProno",
     "timeStart": "2026-09-21",
     "timeEnd": "2026-10-05",
     "seriesId": "1540",
+    "calId": "289",
     "format": "json"
-  }
+  },
+  "responseHeader": {
+    "creationTime": "2026-09-21T14:44:06-03:00",
+    "var_abrev": "altura",
+    "lat": -27.46364349,
+    "corid": 1219278,
+    "unit_abrev": "m",
+    "estacion_abrev": "CORR",
+    "cal_name": "tabprono_central",
+    "estacion_nombre": "Corrientes",
+    "calid": 289,
+    "estacion_id": 19,
+    "id": 1540,
+    "proc_name": "pronóstico",
+    "model_name": "tabprono",
+    "lon": -58.8388696,
+    "queryUrl": "request=datosProno&timeStart=2026-09-21&timeEnd=2026-10-05&seriesId=1540&calId=289&format=json",
+    "red_nombre": "alturas_prefe",
+    "timeStart": "20260921T000000",
+    "timeEnd": "20261005T000000",
+    "varid": 2,
+    "forecastdate": "2026-09-18T00:00:00",
+    "request": "datosProno",
+    "responseTimestamp": "2026-09-21T14:44:06",
+    "unitid": 11
+  },
+  "data": [
+    {
+      "prono_id": 1442447306,
+      "timestart": "2026-09-22T00:00:00",
+      "timeend": "2026-09-22T00:00:00",
+      "valor": 4
+    },
+    {
+      "prono_id": 1442447307,
+      "timestart": "2026-09-22T00:00:00",
+      "timeend": "2026-09-22T00:00:00",
+      "valor": 4.47
+    },
+    {
+      "prono_id": 1442447308,
+      "timestart": "2026-09-22T00:00:00",
+      "timeend": "2026-09-22T00:00:00",
+      "valor": 4.8
+    },
+    {
+      "prono_id": 1442447309,
+      "timestart": "2026-09-29T00:00:00",
+      "timeend": "2026-09-29T00:00:00",
+      "valor": 3.9
+    },
+    {
+      "prono_id": 1442447310,
+      "timestart": "2026-09-29T00:00:00",
+      "timeend": "2026-09-29T00:00:00",
+      "valor": 4.24
+    },
+    {
+      "prono_id": 1442447311,
+      "timestart": "2026-09-29T00:00:00",
+      "timeend": "2026-09-29T00:00:00",
+      "valor": 4.7
+    }
+  ]
 }
