@@ -1,0 +1,27 @@
+{
+  "7d_fecha": {
+    "url": "https://alerta.ina.gob.ar/pub/datos/seriesProno&all=true&forecastTimeStart=2026-09-14&forecastTimeEnd=2026-09-21&format=json",
+    "cantidad": 0,
+    "error": null
+  },
+  "30d_fecha": {
+    "url": "https://alerta.ina.gob.ar/pub/datos/seriesProno&all=true&forecastTimeStart=2026-08-22&forecastTimeEnd=2026-09-21&format=json",
+    "cantidad": 0,
+    "error": null
+  },
+  "1d_fecha": {
+    "url": "https://alerta.ina.gob.ar/pub/datos/seriesProno&all=true&forecastTimeStart=2026-09-20&forecastTimeEnd=2026-09-21&format=json",
+    "cantidad": 0,
+    "error": null
+  },
+  "7d_datetime": {
+    "url": "https://alerta.ina.gob.ar/pub/datos/seriesProno&all=true&forecastTimeStart=2026-09-14T18:07:38&forecastTimeEnd=2026-09-21T18:07:38&format=json",
+    "cantidad": 0,
+    "error": null
+  },
+  "all_1_en_vez_de_true": {
+    "url": "https://alerta.ina.gob.ar/pub/datos/seriesProno&all=1&forecastTimeStart=2026-09-14&forecastTimeEnd=2026-09-21&format=json",
+    "cantidad": 0,
+    "error": null
+  }
+}
