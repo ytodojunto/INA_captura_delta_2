@@ -1,54 +1,54 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-23&timeEnd=2026-09-24&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-24&timeEnd=2026-09-25&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-09-23",
-      "timeEnd": "2026-09-24",
+      "timeStart": "2026-09-24",
+      "timeEnd": "2026-09-25",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "timeStart": "20260923T000000",
-      "sitecode": 19,
       "seriesId": "19\n",
-      "request": "datos",
-      "responseTimestamp": "2026-09-24T11:04:30",
-      "seriesmetadata": {
-        "procId": 1,
-        "unitId": 11,
-        "unit_abrev": "m",
-        "seriesId": 19,
-        "proc_abrev": "medicion",
-        "varId": 2,
-        "var_abrev": "altura"
-      },
-      "queryUrl": "request=datos&timeStart=2026-09-23&timeEnd=2026-09-24&siteCode=19&varId=2&format=json",
-      "creationTime": "2026-09-24T11:04:30-03:00",
-      "timeEnd": "20260924T000000",
       "seriesid": 19,
+      "creationTime": "2026-09-25T11:27:34-03:00",
+      "sitecode": 19,
+      "timeStart": "20260924T000000",
+      "responseTimestamp": "2026-09-25T11:27:34",
+      "request": "datos",
+      "queryUrl": "request=datos&timeStart=2026-09-24&timeEnd=2026-09-25&siteCode=19&varId=2&format=json",
       "sitemetadata": {
-        "siteCode": 19,
         "redId": 10,
         "red_name": "escalas Prefectura Nacional",
+        "siteCode": 19,
+        "estacion_abrev": "CORR",
         "geom": {
           "coordinates": [
             -58.8388696,
             -27.46364349
           ],
           "type": "Point"
-        },
-        "estacion_abrev": "CORR"
-      }
+        }
+      },
+      "seriesmetadata": {
+        "procId": 1,
+        "unitId": 11,
+        "unit_abrev": "m",
+        "varId": 2,
+        "var_abrev": "altura",
+        "seriesId": 19,
+        "proc_abrev": "medicion"
+      },
+      "timeEnd": "20260925T000000"
     },
     "data": [
       {
-        "obs_id": 29215062233,
-        "timestart": "2026-09-23T00:00:00",
-        "timeend": "2026-09-23T00:00:00",
-        "valor": 4.48,
-        "timeupdate": "2026-09-23T13:31:49.607032"
+        "obs_id": 29224530713,
+        "timestart": "2026-09-24T00:00:00",
+        "timeend": "2026-09-24T00:00:00",
+        "valor": 4.52,
+        "timeupdate": "2026-09-24T11:31:35.980038"
       }
     ]
   }
