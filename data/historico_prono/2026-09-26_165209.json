@@ -1,12 +1,9 @@
 {
-  "generado_en": "2026-09-26T16:52:09.940398Z",
+  "capturado_en": "2026-09-26T16:52:09.940398Z",
   "estaciones": {
     "corrientes": {
-      "sitecode": 19,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -23,11 +20,8 @@
       ]
     },
     "barranqueras": {
-      "sitecode": 20,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -44,11 +38,8 @@
       ]
     },
     "goya": {
-      "sitecode": 23,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -65,11 +56,8 @@
       ]
     },
     "parana_ciudad": {
-      "sitecode": 29,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -86,11 +74,8 @@
       ]
     },
     "santa_fe": {
-      "sitecode": 30,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -107,11 +92,8 @@
       ]
     },
     "diamante": {
-      "sitecode": 31,
-      "modelo": "parana_estacional_sissa",
       "corrida_forecastdate": "2026-09-26T09:00:00",
       "corid": 1221871,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-27T00:00:00",
@@ -128,11 +110,8 @@
       ]
     },
     "san_lorenzo_san_martin": {
-      "sitecode": 33,
-      "modelo": "parana_estacional_sissa",
       "corrida_forecastdate": "2026-09-26T09:00:00",
       "corid": 1221871,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-27T00:00:00",
@@ -149,11 +128,8 @@
       ]
     },
     "rosario": {
-      "sitecode": 34,
-      "modelo": "tabprono",
       "corrida_forecastdate": "2026-09-25T00:00:00",
       "corid": 1221904,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-29T00:00:00",
@@ -170,11 +146,8 @@
       ]
     },
     "villa_constitucion": {
-      "sitecode": 35,
-      "modelo": "parana_estacional_sissa",
       "corrida_forecastdate": "2026-09-26T09:00:00",
       "corid": 1221871,
-      "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-09-27T00:00:00",
@@ -191,11 +164,8 @@
       ]
     },
     "san_nicolas": {
-      "sitecode": 36,
-      "modelo": "288_ajuste_salidas",
       "corrida_forecastdate": "2026-09-26T12:25:03.389",
       "corid": 1221914,
-      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-09-26T00:00:00",
@@ -764,11 +734,8 @@
       ]
     },
     "ramallo": {
-      "sitecode": 37,
-      "modelo": "288_ajuste_salidas",
       "corrida_forecastdate": "2026-09-26T12:25:03.389",
       "corid": 1221914,
-      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-09-26T00:00:00",
@@ -1337,11 +1304,8 @@
       ]
     },
     "campana": {
-      "sitecode": 41,
-      "modelo": "288_ajuste_salidas",
       "corrida_forecastdate": "2026-09-26T12:25:03.389",
       "corid": 1221914,
-      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-09-26T00:00:00",
@@ -1910,11 +1874,8 @@
       ]
     },
     "san_fernando": {
-      "sitecode": 52,
-      "modelo": "marea_rdp_regre",
       "corrida_forecastdate": "2026-09-26T03:00:00",
       "corid": 1221908,
-      "n_puntos": 100,
       "serie": [
         {
           "timestart": "2026-09-26T00:00:00",
