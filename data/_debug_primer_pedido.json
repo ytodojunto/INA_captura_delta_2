@@ -1,54 +1,61 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-26&timeEnd=2026-09-27&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-09-27&timeEnd=2026-09-28&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-09-26",
-      "timeEnd": "2026-09-27",
+      "timeStart": "2026-09-27",
+      "timeEnd": "2026-09-28",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
+      "queryUrl": "request=datos&timeStart=2026-09-27&timeEnd=2026-09-28&siteCode=19&varId=2&format=json",
+      "request": "datos",
+      "sitecode": 19,
+      "timeEnd": "20260928T000000",
+      "responseTimestamp": "2026-09-28T14:25:17",
       "seriesmetadata": {
-        "unitId": 11,
-        "varId": 2,
-        "proc_abrev": "medicion",
-        "procId": 1,
-        "var_abrev": "altura",
         "unit_abrev": "m",
+        "varId": 2,
+        "procId": 1,
+        "unitId": 11,
+        "var_abrev": "altura",
+        "proc_abrev": "medicion",
         "seriesId": 19
       },
       "sitemetadata": {
-        "red_name": "escalas Prefectura Nacional",
-        "redId": 10,
         "estacion_abrev": "CORR",
+        "red_name": "escalas Prefectura Nacional",
+        "siteCode": 19,
         "geom": {
-          "type": "Point",
           "coordinates": [
             -58.8388696,
             -27.46364349
-          ]
+          ],
+          "type": "Point"
         },
-        "siteCode": 19
+        "redId": 10
       },
-      "queryUrl": "request=datos&timeStart=2026-09-26&timeEnd=2026-09-27&siteCode=19&varId=2&format=json",
+      "seriesId": "19\n",
       "seriesid": 19,
-      "request": "datos",
-      "creationTime": "2026-09-27T11:35:20-03:00",
-      "timeStart": "20260926T000000",
-      "responseTimestamp": "2026-09-27T11:35:20",
-      "sitecode": 19,
-      "timeEnd": "20260927T000000",
-      "seriesId": "19\n"
+      "timeStart": "20260927T000000",
+      "creationTime": "2026-09-28T14:25:17-03:00"
     },
     "data": [
       {
-        "obs_id": 29245663800,
-        "timestart": "2026-09-26T00:00:00",
-        "timeend": "2026-09-26T00:00:00",
-        "valor": 4.42,
-        "timeupdate": "2026-09-26T12:41:32.794935"
+        "obs_id": 29256450942,
+        "timestart": "2026-09-27T00:00:00",
+        "timeend": "2026-09-27T00:00:00",
+        "valor": 4.28,
+        "timeupdate": "2026-09-27T13:32:58.704546"
+      },
+      {
+        "obs_id": 29265969297,
+        "timestart": "2026-09-28T00:00:00",
+        "timeend": "2026-09-28T00:00:00",
+        "valor": 4.29,
+        "timeupdate": "2026-09-28T11:34:01.317148"
       }
     ]
   }
