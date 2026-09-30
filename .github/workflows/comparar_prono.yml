@@ -1,4 +1,4 @@
-name: Comparar pronostico INA vs observado
+- name: Correr comparacion v4 (snapshots propios, sin red)
 
 on:
   workflow_dispatch:
