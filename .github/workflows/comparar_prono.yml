@@ -1,4 +1,4 @@
-- name: Correr comparacion v4 (snapshots propios, sin red)
+name: Comparar pronostico INA vs observado
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Correr comparacion (v4: snapshots propios, sin red)
+      - name: Correr comparacion v4 (snapshots propios, sin red)
         run: python comparar_prono_ina_v4.py
 
       - name: Commitear resultados
