@@ -1,37 +1,34 @@
 name: Comparar pronostico INA vs observado
 
 on:
-  workflow_dispatch:
   schedule:
-    # 14:30 UTC diario: despues de "Capturar pronostico INA" (13:00 UTC)
-    # y del sync de series, asi compara con datos frescos.
     - cron: "30 14 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: comparar-prono
+  cancel-in-progress: false
+
 jobs:
   comparar:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-
-      - name: Correr comparacion v4 (snapshots propios, sin red)
-        run: python comparar_prono_ina_v4.py
-
-      - name: Commitear resultados
+          python-version: "3.12"
+      - name: Comparar (v5)
+        run: python comparar_prono_ina_v5.py
+      - name: Commit
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/comparacion_prono/comparacion.json
-          git diff --staged --quiet || git commit -m "Comparacion prono INA v4 $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          git pull --rebase origin main
+          if git diff --cached --quiet; then echo "sin cambios"; exit 0; fi
+          git commit -m "comparacion INA v5 $(date -u +%F)"
+          git pull --rebase
           git push
