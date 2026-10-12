@@ -1,55 +1,15 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-10&timeEnd=2026-10-11&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-11&timeEnd=2026-10-12&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
+    "title": "Mensaje de error",
+    "mensaje": "No se encontraron resultados que coincidan con los criterios",
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-10",
-      "timeEnd": "2026-10-11",
+      "timeStart": "2026-10-11",
+      "timeEnd": "2026-10-12",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
-    },
-    "responseHeader": {
-      "seriesId": "19\n",
-      "queryUrl": "request=datos&timeStart=2026-10-10&timeEnd=2026-10-11&siteCode=19&varId=2&format=json",
-      "responseTimestamp": "2026-10-11T12:22:13",
-      "seriesid": 19,
-      "timeEnd": "20261011T000000",
-      "sitemetadata": {
-        "geom": {
-          "type": "Point",
-          "coordinates": [
-            -58.8388696,
-            -27.46364349
-          ]
-        },
-        "siteCode": 19,
-        "red_name": "escalas Prefectura Nacional",
-        "redId": 10,
-        "estacion_abrev": "CORR"
-      },
-      "sitecode": 19,
-      "request": "datos",
-      "timeStart": "20261010T000000",
-      "creationTime": "2026-10-11T12:22:13-03:00",
-      "seriesmetadata": {
-        "proc_abrev": "medicion",
-        "varId": 2,
-        "unitId": 11,
-        "seriesId": 19,
-        "procId": 1,
-        "var_abrev": "altura",
-        "unit_abrev": "m"
-      }
-    },
-    "data": [
-      {
-        "obs_id": 29402084274,
-        "timestart": "2026-10-10T00:00:00",
-        "timeend": "2026-10-10T00:00:00",
-        "valor": 4.92,
-        "timeupdate": "2026-10-10T12:31:49.177464"
-      }
-    ]
+    }
   }
 }
