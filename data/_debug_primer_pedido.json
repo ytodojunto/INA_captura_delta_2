@@ -1,54 +1,54 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-13&timeEnd=2026-10-14&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-14&timeEnd=2026-10-15&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-13",
-      "timeEnd": "2026-10-14",
+      "timeStart": "2026-10-14",
+      "timeEnd": "2026-10-15",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
+      "seriesmetadata": {
+        "unit_abrev": "m",
+        "unitId": 11,
+        "proc_abrev": "medicion",
+        "seriesId": 19,
+        "procId": 1,
+        "varId": 2,
+        "var_abrev": "altura"
+      },
+      "responseTimestamp": "2026-10-15T11:00:13",
+      "timeEnd": "20261015T000000",
       "seriesid": 19,
       "request": "datos",
-      "sitecode": 19,
-      "seriesmetadata": {
-        "unitId": 11,
-        "var_abrev": "altura",
-        "proc_abrev": "medicion",
-        "unit_abrev": "m",
-        "procId": 1,
-        "seriesId": 19,
-        "varId": 2
-      },
+      "queryUrl": "request=datos&timeStart=2026-10-14&timeEnd=2026-10-15&siteCode=19&varId=2&format=json",
       "seriesId": "19\n",
-      "timeEnd": "20261014T000000",
-      "responseTimestamp": "2026-10-14T11:22:50",
+      "timeStart": "20261014T000000",
+      "sitecode": 19,
       "sitemetadata": {
-        "estacion_abrev": "CORR",
         "geom": {
+          "type": "Point",
           "coordinates": [
             -58.8388696,
             -27.46364349
-          ],
-          "type": "Point"
+          ]
         },
-        "red_name": "escalas Prefectura Nacional",
+        "estacion_abrev": "CORR",
+        "siteCode": 19,
         "redId": 10,
-        "siteCode": 19
+        "red_name": "escalas Prefectura Nacional"
       },
-      "timeStart": "20261013T000000",
-      "creationTime": "2026-10-14T11:22:50-03:00",
-      "queryUrl": "request=datos&timeStart=2026-10-13&timeEnd=2026-10-14&siteCode=19&varId=2&format=json"
+      "creationTime": "2026-10-15T11:00:13-03:00"
     },
     "data": [
       {
-        "obs_id": 29431171427,
-        "timestart": "2026-10-13T00:00:00",
-        "timeend": "2026-10-13T00:00:00",
-        "valor": 5.32,
-        "timeupdate": "2026-10-13T11:32:26.056718"
+        "obs_id": 29441060179,
+        "timestart": "2026-10-14T00:00:00",
+        "timeend": "2026-10-14T00:00:00",
+        "valor": 5.5,
+        "timeupdate": "2026-10-14T12:02:42.50892"
       }
     ]
   }
