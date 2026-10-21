@@ -1,33 +1,21 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-19&timeEnd=2026-10-20&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-20&timeEnd=2026-10-21&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-19",
-      "timeEnd": "2026-10-20",
+      "timeStart": "2026-10-20",
+      "timeEnd": "2026-10-21",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "seriesid": 19,
       "seriesId": "19\n",
-      "timeEnd": "20261020T000000",
-      "timeStart": "20261019T000000",
-      "queryUrl": "request=datos&timeStart=2026-10-19&timeEnd=2026-10-20&siteCode=19&varId=2&format=json",
-      "seriesmetadata": {
-        "seriesId": 19,
-        "varId": 2,
-        "procId": 1,
-        "unitId": 11,
-        "proc_abrev": "medicion",
-        "unit_abrev": "m",
-        "var_abrev": "altura"
-      },
-      "creationTime": "2026-10-20T11:09:20-03:00",
+      "seriesid": 19,
+      "responseTimestamp": "2026-10-21T11:22:34",
+      "timeEnd": "20261021T000000",
+      "timeStart": "20261020T000000",
       "sitemetadata": {
-        "siteCode": 19,
-        "redId": 10,
         "geom": {
           "coordinates": [
             -58.8388696,
@@ -36,20 +24,25 @@
           "type": "Point"
         },
         "estacion_abrev": "CORR",
+        "redId": 10,
+        "siteCode": 19,
         "red_name": "escalas Prefectura Nacional"
       },
+      "seriesmetadata": {
+        "procId": 1,
+        "seriesId": 19,
+        "unit_abrev": "m",
+        "proc_abrev": "medicion",
+        "unitId": 11,
+        "var_abrev": "altura",
+        "varId": 2
+      },
+      "request": "datos",
+      "queryUrl": "request=datos&timeStart=2026-10-20&timeEnd=2026-10-21&siteCode=19&varId=2&format=json",
       "sitecode": 19,
-      "responseTimestamp": "2026-10-20T11:09:20",
-      "request": "datos"
+      "creationTime": "2026-10-21T11:22:34-03:00"
     },
     "data": [
-      {
-        "obs_id": 29487917980,
-        "timestart": "2026-10-19T00:00:00",
-        "timeend": "2026-10-19T00:00:00",
-        "valor": 7.07,
-        "timeupdate": "2026-10-19T10:31:44.969879"
-      },
       {
         "obs_id": 29497480117,
         "timestart": "2026-10-20T00:00:00",
