@@ -1,54 +1,54 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-22&timeEnd=2026-10-23&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-23&timeEnd=2026-10-24&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-22",
-      "timeEnd": "2026-10-23",
+      "timeStart": "2026-10-23",
+      "timeEnd": "2026-10-24",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "request": "datos",
-      "seriesId": "19\n",
-      "creationTime": "2026-10-23T11:06:16-03:00",
+      "responseTimestamp": "2026-10-24T10:08:49",
       "seriesid": 19,
-      "seriesmetadata": {
-        "varId": 2,
-        "procId": 1,
-        "seriesId": 19,
-        "proc_abrev": "medicion",
-        "unit_abrev": "m",
-        "var_abrev": "altura",
-        "unitId": 11
-      },
+      "seriesId": "19\n",
+      "creationTime": "2026-10-24T10:08:49-03:00",
+      "timeStart": "20261023T000000",
       "sitecode": 19,
-      "timeEnd": "20261023T000000",
-      "responseTimestamp": "2026-10-23T11:06:16",
-      "queryUrl": "request=datos&timeStart=2026-10-22&timeEnd=2026-10-23&siteCode=19&varId=2&format=json",
+      "queryUrl": "request=datos&timeStart=2026-10-23&timeEnd=2026-10-24&siteCode=19&varId=2&format=json",
+      "timeEnd": "20261024T000000",
+      "seriesmetadata": {
+        "unit_abrev": "m",
+        "proc_abrev": "medicion",
+        "procId": 1,
+        "var_abrev": "altura",
+        "unitId": 11,
+        "seriesId": 19,
+        "varId": 2
+      },
       "sitemetadata": {
         "siteCode": 19,
-        "red_name": "escalas Prefectura Nacional",
         "estacion_abrev": "CORR",
         "geom": {
-          "type": "Point",
           "coordinates": [
             -58.8388696,
             -27.46364349
-          ]
+          ],
+          "type": "Point"
         },
-        "redId": 10
+        "redId": 10,
+        "red_name": "escalas Prefectura Nacional"
       },
-      "timeStart": "20261022T000000"
+      "request": "datos"
     },
     "data": [
       {
-        "obs_id": 29517596358,
-        "timestart": "2026-10-22T00:00:00",
-        "timeend": "2026-10-22T00:00:00",
-        "valor": 7.38,
-        "timeupdate": "2026-10-22T10:31:03.48453"
+        "obs_id": 29528184651,
+        "timestart": "2026-10-23T00:00:00",
+        "timeend": "2026-10-23T00:00:00",
+        "valor": 7.42,
+        "timeupdate": "2026-10-23T11:32:24.014257"
       }
     ]
   }
