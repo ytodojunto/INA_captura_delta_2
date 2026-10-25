@@ -1,54 +1,54 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-23&timeEnd=2026-10-24&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-24&timeEnd=2026-10-25&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-23",
-      "timeEnd": "2026-10-24",
+      "timeStart": "2026-10-24",
+      "timeEnd": "2026-10-25",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "responseTimestamp": "2026-10-24T10:08:49",
-      "seriesid": 19,
-      "seriesId": "19\n",
-      "creationTime": "2026-10-24T10:08:49-03:00",
-      "timeStart": "20261023T000000",
-      "sitecode": 19,
-      "queryUrl": "request=datos&timeStart=2026-10-23&timeEnd=2026-10-24&siteCode=19&varId=2&format=json",
-      "timeEnd": "20261024T000000",
+      "request": "datos",
+      "creationTime": "2026-10-25T10:35:59-03:00",
+      "responseTimestamp": "2026-10-25T10:35:59",
+      "timeEnd": "20261025T000000",
       "seriesmetadata": {
-        "unit_abrev": "m",
+        "unitId": 11,
+        "varId": 2,
+        "var_abrev": "altura",
         "proc_abrev": "medicion",
         "procId": 1,
-        "var_abrev": "altura",
-        "unitId": 11,
         "seriesId": 19,
-        "varId": 2
+        "unit_abrev": "m"
       },
       "sitemetadata": {
-        "siteCode": 19,
-        "estacion_abrev": "CORR",
+        "red_name": "escalas Prefectura Nacional",
         "geom": {
+          "type": "Point",
           "coordinates": [
             -58.8388696,
             -27.46364349
-          ],
-          "type": "Point"
+          ]
         },
-        "redId": 10,
-        "red_name": "escalas Prefectura Nacional"
+        "siteCode": 19,
+        "estacion_abrev": "CORR",
+        "redId": 10
       },
-      "request": "datos"
+      "queryUrl": "request=datos&timeStart=2026-10-24&timeEnd=2026-10-25&siteCode=19&varId=2&format=json",
+      "seriesId": "19\n",
+      "sitecode": 19,
+      "timeStart": "20261024T000000",
+      "seriesid": 19
     },
     "data": [
       {
-        "obs_id": 29528184651,
-        "timestart": "2026-10-23T00:00:00",
-        "timeend": "2026-10-23T00:00:00",
-        "valor": 7.42,
-        "timeupdate": "2026-10-23T11:32:24.014257"
+        "obs_id": 29539260036,
+        "timestart": "2026-10-24T00:00:00",
+        "timeend": "2026-10-24T00:00:00",
+        "valor": 7.37,
+        "timeupdate": "2026-10-24T13:33:23.37816"
       }
     ]
   }
