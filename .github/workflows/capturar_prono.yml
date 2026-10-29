@@ -1,12 +1,19 @@
-name: Capturar pronostico INA (diario)
+name: Capturar pronostico INA (cada ~30 min, solo corridas nuevas)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 13 * * *"  # 13:00 UTC diario (~10hs Arg), despues de que corran los modelos de la manana
+    # Antes: una vez por dia a las 13:00 UTC, pero GitHub la corria con 3-8 h de demora y la
+    # primera captura de cada corrida llegaba 13-21 h despues de su t0. Ahora dos disparos por
+    # hora; el script no guarda nada si no hay corrida nueva, asi que no se duplican snapshots.
+    - cron: "17,47 * * * *"
 
 permissions:
   contents: write
+
+concurrency:
+  group: capturar-prono
+  cancel-in-progress: false
 
 jobs:
   capturar:

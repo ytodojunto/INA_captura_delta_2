@@ -2,10 +2,12 @@
 Captura el pronostico ACTUAL (ultima corrida) del INA para las 13
 estaciones del Paraná que tienen modelo propio, dos veces:
 
-1. Guarda un snapshot fechado en data/historico_prono/<fecha>.json, uno
-   por corrida (se van acumulando dia a dia via cron - de aca sale, en
-   unas semanas, la historia real para hacer el backtest de precision
-   que "all=true" no nos deja hacer de una).
+1. Guarda un snapshot fechado en data/historico_prono/<fecha>_<hora>.json
+   SOLO con las estaciones que tienen una corrida nueva (corid) respecto de
+   lo ya guardado; si no hay ninguna corrida nueva no escribe nada. Asi se
+   puede correr seguido (el workflow lo dispara cada ~30 min) sin duplicar
+   corridas y se registra la hora real en que cada una estuvo publicada
+   (de aca sale la historia para el backtest de precision).
 
 2. Sobreescribe data/snapshot_actual.json con el pronostico mas fresco
    de cada estacion (para armar el HTML de hoy sin esperar nada).
@@ -57,6 +59,28 @@ def elegir_mejor_serie(propias):
     principal) y quedarse con la de forecastdate mas reciente."""
     candidatas = [s for s in propias if s.get("varid") == 2] or propias
     return max(candidatas, key=lambda s: s.get("forecastdate") or "")
+
+
+def _clave_corrida(entrada):
+    """Identifica una corrida: corid, o la fecha de la corrida si no hay corid."""
+    return entrada.get("corid") if entrada.get("corid") is not None else entrada.get("corrida_forecastdate")
+
+
+def corridas_vistas():
+    """{(slug, clave)} de todo lo ya guardado en historico_prono/."""
+    vistas = set()
+    for p in sorted(HIST_DIR.glob("*.json")):
+        try:
+            d = json.loads(p.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError):
+            continue
+        for slug, e in (d.get("estaciones") or {}).items():
+            vistas.add((slug, _clave_corrida(e)))
+    return vistas
+
+
+def solo_corridas_nuevas(estaciones, vistas):
+    return {slug: e for slug, e in estaciones.items() if (slug, _clave_corrida(e)) not in vistas}
 
 
 def main():
@@ -131,6 +155,12 @@ def main():
         }
         time.sleep(1)
 
+    nuevas = solo_corridas_nuevas(historico_del_dia["estaciones"], corridas_vistas())
+    if not nuevas:
+        print("\nSin corridas nuevas respecto de lo ya guardado; no se escribe nada.")
+        return
+    print(f"\nCorridas nuevas en: {', '.join(sorted(nuevas))}")
+    historico_del_dia["estaciones"] = nuevas
     (DATA_DIR / "snapshot_actual.json").write_text(
         json.dumps(snapshot, indent=2, ensure_ascii=False)
     )
