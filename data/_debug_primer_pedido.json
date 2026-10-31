@@ -1,55 +1,48 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-29&timeEnd=2026-10-30&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-10-30&timeEnd=2026-10-31&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-10-29",
-      "timeEnd": "2026-10-30",
+      "timeStart": "2026-10-30",
+      "timeEnd": "2026-10-31",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "timeEnd": "20261030T000000",
-      "seriesmetadata": {
-        "varId": 2,
-        "unit_abrev": "m",
-        "unitId": 11,
-        "seriesId": 19,
-        "proc_abrev": "medicion",
-        "var_abrev": "altura",
-        "procId": 1
-      },
       "sitemetadata": {
-        "redId": 10,
-        "estacion_abrev": "CORR",
+        "siteCode": 19,
         "red_name": "escalas Prefectura Nacional",
+        "estacion_abrev": "CORR",
+        "redId": 10,
         "geom": {
           "coordinates": [
             -58.8388696,
             -27.46364349
           ],
           "type": "Point"
-        },
-        "siteCode": 19
+        }
       },
-      "timeStart": "20261029T000000",
-      "seriesid": 19,
+      "responseTimestamp": "2026-10-31T12:07:58",
       "sitecode": 19,
-      "request": "datos",
-      "queryUrl": "request=datos&timeStart=2026-10-29&timeEnd=2026-10-30&siteCode=19&varId=2&format=json",
-      "responseTimestamp": "2026-10-30T12:37:50",
-      "creationTime": "2026-10-30T12:37:50-03:00",
-      "seriesId": "19\n"
+      "creationTime": "2026-10-31T12:07:58-03:00",
+      "seriesmetadata": {
+        "procId": 1,
+        "unitId": 11,
+        "var_abrev": "altura",
+        "varId": 2,
+        "proc_abrev": "medicion",
+        "unit_abrev": "m",
+        "seriesId": 19
+      },
+      "seriesId": "19\n",
+      "queryUrl": "request=datos&timeStart=2026-10-30&timeEnd=2026-10-31&siteCode=19&varId=2&format=json",
+      "timeStart": "20261030T000000",
+      "seriesid": 19,
+      "timeEnd": "20261031T000000",
+      "request": "datos"
     },
     "data": [
-      {
-        "obs_id": 29589028863,
-        "timestart": "2026-10-29T00:00:00",
-        "timeend": "2026-10-29T00:00:00",
-        "valor": 7.38,
-        "timeupdate": "2026-10-29T10:33:04.353197"
-      },
       {
         "obs_id": 29599871832,
         "timestart": "2026-10-30T00:00:00",
