@@ -1,11 +1,11 @@
 {
-  "generado_en": "2026-11-04T08:02:43.677232Z",
+  "generado_en": "2026-11-04T16:20:42.763345Z",
   "estaciones": {
     "corrientes": {
       "sitecode": 19,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -26,7 +26,7 @@
       "sitecode": 20,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -47,7 +47,7 @@
       "sitecode": 23,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -68,7 +68,7 @@
       "sitecode": 29,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -89,7 +89,7 @@
       "sitecode": 30,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -109,42 +109,42 @@
     "diamante": {
       "sitecode": 31,
       "modelo": "parana_estacional_sissa",
-      "corrida_forecastdate": "2026-11-02T09:00:00",
-      "corid": 1241419,
+      "corrida_forecastdate": "2026-11-04T10:00:00",
+      "corid": 1241663,
       "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-11-08T00:00:00",
-          "min": 4.95,
-          "central": 5.43,
-          "max": 5.96
+          "min": 4.87,
+          "central": 5.35,
+          "max": 5.88
         },
         {
           "timestart": "2026-11-15T00:00:00",
-          "min": 5.14,
-          "central": 5.68,
-          "max": 6.26
+          "min": 4.9,
+          "central": 5.44,
+          "max": 6.02
         }
       ]
     },
     "san_lorenzo_san_martin": {
       "sitecode": 33,
       "modelo": "parana_estacional_sissa",
-      "corrida_forecastdate": "2026-11-02T09:00:00",
-      "corid": 1241419,
+      "corrida_forecastdate": "2026-11-04T10:00:00",
+      "corid": 1241663,
       "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-11-08T00:00:00",
-          "min": 4.53,
+          "min": 4.54,
           "central": 5.03,
           "max": 5.56
         },
         {
           "timestart": "2026-11-15T00:00:00",
-          "min": 4.86,
-          "central": 5.41,
-          "max": 6
+          "min": 4.63,
+          "central": 5.18,
+          "max": 5.77
         }
       ]
     },
@@ -152,7 +152,7 @@
       "sitecode": 34,
       "modelo": "tabprono",
       "corrida_forecastdate": "2026-11-03T00:00:00",
-      "corid": 1241495,
+      "corid": 1241674,
       "n_puntos": 2,
       "serie": [
         {
@@ -172,42 +172,42 @@
     "villa_constitucion": {
       "sitecode": 35,
       "modelo": "parana_estacional_sissa",
-      "corrida_forecastdate": "2026-11-02T09:00:00",
-      "corid": 1241419,
+      "corrida_forecastdate": "2026-11-04T10:00:00",
+      "corid": 1241663,
       "n_puntos": 2,
       "serie": [
         {
           "timestart": "2026-11-08T00:00:00",
-          "min": 3.12,
-          "central": 3.57,
-          "max": 4
+          "min": 3.13,
+          "central": 3.58,
+          "max": 4.01
         },
         {
           "timestart": "2026-11-15T00:00:00",
-          "min": 3.31,
-          "central": 3.82,
-          "max": 4.31
+          "min": 3.23,
+          "central": 3.74,
+          "max": 4.23
         }
       ]
     },
     "san_nicolas": {
       "sitecode": 36,
       "modelo": "288_ajuste_salidas",
-      "corrida_forecastdate": "2026-11-03T21:25:03.703",
-      "corid": 1241505,
-      "n_puntos": 70,
+      "corrida_forecastdate": "2026-11-04T12:25:03.628",
+      "corid": 1241684,
+      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-11-04T00:00:00",
-          "min": 2.89,
-          "central": 2.89,
-          "max": 2.89
+          "min": 2.9,
+          "central": 2.9,
+          "max": 2.9
         },
         {
           "timestart": "2026-11-04T01:00:00",
-          "min": 2.89,
-          "central": 2.89,
-          "max": 2.89
+          "min": 2.9,
+          "central": 2.9,
+          "max": 2.9
         },
         {
           "timestart": "2026-11-04T02:00:00",
@@ -277,9 +277,9 @@
         },
         {
           "timestart": "2026-11-04T13:00:00",
-          "min": 2.93,
-          "central": 2.93,
-          "max": 2.93
+          "min": 2.92,
+          "central": 2.92,
+          "max": 2.92
         },
         {
           "timestart": "2026-11-04T14:00:00",
@@ -295,15 +295,15 @@
         },
         {
           "timestart": "2026-11-04T16:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.93,
+          "central": 2.93,
+          "max": 2.93
         },
         {
           "timestart": "2026-11-04T17:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.93,
+          "central": 2.93,
+          "max": 2.93
         },
         {
           "timestart": "2026-11-04T18:00:00",
@@ -325,15 +325,15 @@
         },
         {
           "timestart": "2026-11-04T21:00:00",
-          "min": 2.95,
-          "central": 2.95,
-          "max": 2.95
+          "min": 2.94,
+          "central": 2.94,
+          "max": 2.94
         },
         {
           "timestart": "2026-11-04T22:00:00",
-          "min": 2.95,
-          "central": 2.95,
-          "max": 2.95
+          "min": 2.94,
+          "central": 2.94,
+          "max": 2.94
         },
         {
           "timestart": "2026-11-04T23:00:00",
@@ -391,15 +391,15 @@
         },
         {
           "timestart": "2026-11-05T08:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.93,
+          "central": 2.93,
+          "max": 2.93
         },
         {
           "timestart": "2026-11-05T09:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.93,
+          "central": 2.93,
+          "max": 2.93
         },
         {
           "timestart": "2026-11-05T10:00:00",
@@ -457,105 +457,105 @@
         },
         {
           "timestart": "2026-11-05T19:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-05T20:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-05T21:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-05T22:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-05T23:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T00:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T01:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T02:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T03:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T04:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T05:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T06:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T07:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T08:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T09:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T10:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T11:00:00",
-          "min": 2.94,
-          "central": 2.94,
-          "max": 2.94
+          "min": 2.95,
+          "central": 2.95,
+          "max": 2.95
         },
         {
           "timestart": "2026-11-06T12:00:00",
@@ -571,60 +571,204 @@
         },
         {
           "timestart": "2026-11-06T14:00:00",
-          "min": 2.95,
-          "central": 2.95,
-          "max": 2.95
+          "min": 2.96,
+          "central": 2.96,
+          "max": 2.96
         },
         {
           "timestart": "2026-11-06T15:00:00",
-          "min": 2.95,
-          "central": 2.95,
-          "max": 2.95
+          "min": 2.96,
+          "central": 2.96,
+          "max": 2.96
         },
         {
           "timestart": "2026-11-06T16:00:00",
-          "min": 2.95,
-          "central": 2.95,
-          "max": 2.95
+          "min": 2.96,
+          "central": 2.96,
+          "max": 2.96
         },
         {
           "timestart": "2026-11-06T17:00:00",
-          "min": 2.96,
-          "central": 2.96,
-          "max": 2.96
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
         },
         {
           "timestart": "2026-11-06T18:00:00",
-          "min": 2.96,
-          "central": 2.96,
-          "max": 2.96
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
         },
         {
           "timestart": "2026-11-06T19:00:00",
-          "min": 2.96,
-          "central": 2.96,
-          "max": 2.96
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
         },
         {
           "timestart": "2026-11-06T20:00:00",
-          "min": 2.96,
-          "central": 2.96,
-          "max": 2.96
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
         },
         {
           "timestart": "2026-11-06T21:00:00",
-          "min": 2.96,
-          "central": 2.96,
-          "max": 2.96
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-06T22:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-06T23:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T00:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T01:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T02:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T03:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T04:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T05:00:00",
+          "min": 2.97,
+          "central": 2.97,
+          "max": 2.97
+        },
+        {
+          "timestart": "2026-11-07T06:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T07:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T08:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T09:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T10:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T11:00:00",
+          "min": 2.98,
+          "central": 2.98,
+          "max": 2.98
+        },
+        {
+          "timestart": "2026-11-07T12:00:00",
+          "min": 2.99,
+          "central": 2.99,
+          "max": 2.99
+        },
+        {
+          "timestart": "2026-11-07T13:00:00",
+          "min": 2.99,
+          "central": 2.99,
+          "max": 2.99
+        },
+        {
+          "timestart": "2026-11-07T14:00:00",
+          "min": 2.99,
+          "central": 2.99,
+          "max": 2.99
+        },
+        {
+          "timestart": "2026-11-07T15:00:00",
+          "min": 3,
+          "central": 3,
+          "max": 3
+        },
+        {
+          "timestart": "2026-11-07T16:00:00",
+          "min": 3,
+          "central": 3,
+          "max": 3
+        },
+        {
+          "timestart": "2026-11-07T17:00:00",
+          "min": 3.01,
+          "central": 3.01,
+          "max": 3.01
+        },
+        {
+          "timestart": "2026-11-07T18:00:00",
+          "min": 3.01,
+          "central": 3.01,
+          "max": 3.01
+        },
+        {
+          "timestart": "2026-11-07T19:00:00",
+          "min": 3.02,
+          "central": 3.02,
+          "max": 3.02
+        },
+        {
+          "timestart": "2026-11-07T20:00:00",
+          "min": 3.02,
+          "central": 3.02,
+          "max": 3.02
+        },
+        {
+          "timestart": "2026-11-07T21:00:00",
+          "min": 3.03,
+          "central": 3.03,
+          "max": 3.03
         }
       ]
     },
     "ramallo": {
       "sitecode": 37,
       "modelo": "288_ajuste_salidas",
-      "corrida_forecastdate": "2026-11-03T21:25:03.703",
-      "corid": 1241505,
-      "n_puntos": 70,
+      "corrida_forecastdate": "2026-11-04T12:25:03.628",
+      "corid": 1241684,
+      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-11-04T00:00:00",
@@ -646,9 +790,9 @@
         },
         {
           "timestart": "2026-11-04T03:00:00",
-          "min": 2.5,
-          "central": 2.5,
-          "max": 2.5
+          "min": 2.51,
+          "central": 2.51,
+          "max": 2.51
         },
         {
           "timestart": "2026-11-04T04:00:00",
@@ -676,9 +820,9 @@
         },
         {
           "timestart": "2026-11-04T08:00:00",
-          "min": 2.52,
-          "central": 2.52,
-          "max": 2.52
+          "min": 2.51,
+          "central": 2.51,
+          "max": 2.51
         },
         {
           "timestart": "2026-11-04T09:00:00",
@@ -688,105 +832,105 @@
         },
         {
           "timestart": "2026-11-04T10:00:00",
-          "min": 2.53,
-          "central": 2.53,
-          "max": 2.53
+          "min": 2.52,
+          "central": 2.52,
+          "max": 2.52
         },
         {
           "timestart": "2026-11-04T11:00:00",
+          "min": 2.52,
+          "central": 2.52,
+          "max": 2.52
+        },
+        {
+          "timestart": "2026-11-04T12:00:00",
           "min": 2.53,
           "central": 2.53,
           "max": 2.53
         },
         {
-          "timestart": "2026-11-04T12:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
-        },
-        {
           "timestart": "2026-11-04T13:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-04T14:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-04T15:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T16:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T17:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T18:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T19:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T20:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T21:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T22:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-04T23:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T00:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T01:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T02:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T03:00:00",
@@ -796,51 +940,51 @@
         },
         {
           "timestart": "2026-11-05T04:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T05:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T06:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T07:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T08:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T09:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T10:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T11:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.53,
+          "central": 2.53,
+          "max": 2.53
         },
         {
           "timestart": "2026-11-05T12:00:00",
@@ -874,21 +1018,21 @@
         },
         {
           "timestart": "2026-11-05T17:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T18:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T19:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.54,
+          "central": 2.54,
+          "max": 2.54
         },
         {
           "timestart": "2026-11-05T20:00:00",
@@ -976,15 +1120,15 @@
         },
         {
           "timestart": "2026-11-06T10:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.55,
+          "central": 2.55,
+          "max": 2.55
         },
         {
           "timestart": "2026-11-06T11:00:00",
-          "min": 2.54,
-          "central": 2.54,
-          "max": 2.54
+          "min": 2.55,
+          "central": 2.55,
+          "max": 2.55
         },
         {
           "timestart": "2026-11-06T12:00:00",
@@ -1000,15 +1144,15 @@
         },
         {
           "timestart": "2026-11-06T14:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.56,
+          "central": 2.56,
+          "max": 2.56
         },
         {
           "timestart": "2026-11-06T15:00:00",
-          "min": 2.55,
-          "central": 2.55,
-          "max": 2.55
+          "min": 2.56,
+          "central": 2.56,
+          "max": 2.56
         },
         {
           "timestart": "2026-11-06T16:00:00",
@@ -1018,999 +1162,1359 @@
         },
         {
           "timestart": "2026-11-06T17:00:00",
-          "min": 2.56,
-          "central": 2.56,
-          "max": 2.56
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
         },
         {
           "timestart": "2026-11-06T18:00:00",
-          "min": 2.56,
-          "central": 2.56,
-          "max": 2.56
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
         },
         {
           "timestart": "2026-11-06T19:00:00",
-          "min": 2.56,
-          "central": 2.56,
-          "max": 2.56
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
         },
         {
           "timestart": "2026-11-06T20:00:00",
-          "min": 2.56,
-          "central": 2.56,
-          "max": 2.56
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
         },
         {
           "timestart": "2026-11-06T21:00:00",
-          "min": 2.56,
-          "central": 2.56,
-          "max": 2.56
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-06T22:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-06T23:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T00:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T01:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T02:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T03:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T04:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T05:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T06:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T07:00:00",
+          "min": 2.57,
+          "central": 2.57,
+          "max": 2.57
+        },
+        {
+          "timestart": "2026-11-07T08:00:00",
+          "min": 2.58,
+          "central": 2.58,
+          "max": 2.58
+        },
+        {
+          "timestart": "2026-11-07T09:00:00",
+          "min": 2.58,
+          "central": 2.58,
+          "max": 2.58
+        },
+        {
+          "timestart": "2026-11-07T10:00:00",
+          "min": 2.58,
+          "central": 2.58,
+          "max": 2.58
+        },
+        {
+          "timestart": "2026-11-07T11:00:00",
+          "min": 2.59,
+          "central": 2.59,
+          "max": 2.59
+        },
+        {
+          "timestart": "2026-11-07T12:00:00",
+          "min": 2.59,
+          "central": 2.59,
+          "max": 2.59
+        },
+        {
+          "timestart": "2026-11-07T13:00:00",
+          "min": 2.59,
+          "central": 2.59,
+          "max": 2.59
+        },
+        {
+          "timestart": "2026-11-07T14:00:00",
+          "min": 2.6,
+          "central": 2.6,
+          "max": 2.6
+        },
+        {
+          "timestart": "2026-11-07T15:00:00",
+          "min": 2.61,
+          "central": 2.61,
+          "max": 2.61
+        },
+        {
+          "timestart": "2026-11-07T16:00:00",
+          "min": 2.61,
+          "central": 2.61,
+          "max": 2.61
+        },
+        {
+          "timestart": "2026-11-07T17:00:00",
+          "min": 2.62,
+          "central": 2.62,
+          "max": 2.62
+        },
+        {
+          "timestart": "2026-11-07T18:00:00",
+          "min": 2.62,
+          "central": 2.62,
+          "max": 2.62
+        },
+        {
+          "timestart": "2026-11-07T19:00:00",
+          "min": 2.63,
+          "central": 2.63,
+          "max": 2.63
+        },
+        {
+          "timestart": "2026-11-07T20:00:00",
+          "min": 2.63,
+          "central": 2.63,
+          "max": 2.63
+        },
+        {
+          "timestart": "2026-11-07T21:00:00",
+          "min": 2.64,
+          "central": 2.64,
+          "max": 2.64
         }
       ]
     },
     "campana": {
       "sitecode": 41,
       "modelo": "288_ajuste_salidas",
-      "corrida_forecastdate": "2026-11-03T21:25:03.703",
-      "corid": 1241505,
-      "n_puntos": 70,
+      "corrida_forecastdate": "2026-11-04T12:25:03.628",
+      "corid": 1241684,
+      "n_puntos": 94,
       "serie": [
         {
           "timestart": "2026-11-04T00:00:00",
-          "min": 0.849629,
-          "central": 1.00705,
-          "max": 1.22061
+          "min": 0.544815,
+          "central": 0.708828,
+          "max": 0.911698
         },
         {
           "timestart": "2026-11-04T01:00:00",
-          "min": 0.950674,
-          "central": 1.1081,
-          "max": 1.32166
+          "min": 0.68577,
+          "central": 0.849783,
+          "max": 1.05265
         },
         {
           "timestart": "2026-11-04T02:00:00",
-          "min": 1.08961,
-          "central": 1.24703,
-          "max": 1.46059
+          "min": 0.801097,
+          "central": 0.96511,
+          "max": 1.16798
         },
         {
           "timestart": "2026-11-04T03:00:00",
-          "min": 1.21592,
-          "central": 1.37334,
-          "max": 1.5869
+          "min": 0.90361,
+          "central": 1.06762,
+          "max": 1.27049
         },
         {
           "timestart": "2026-11-04T04:00:00",
-          "min": 1.32959,
-          "central": 1.48701,
-          "max": 1.70058
+          "min": 0.954866,
+          "central": 1.11888,
+          "max": 1.32175
         },
         {
           "timestart": "2026-11-04T05:00:00",
-          "min": 1.38011,
-          "central": 1.53754,
-          "max": 1.7511
+          "min": 0.980494,
+          "central": 1.14451,
+          "max": 1.34738
         },
         {
           "timestart": "2026-11-04T06:00:00",
-          "min": 1.40537,
-          "central": 1.5628,
-          "max": 1.77636
+          "min": 0.96768,
+          "central": 1.13169,
+          "max": 1.33456
         },
         {
           "timestart": "2026-11-04T07:00:00",
-          "min": 1.38011,
-          "central": 1.53754,
-          "max": 1.7511
+          "min": 0.929238,
+          "central": 1.09325,
+          "max": 1.29612
         },
         {
           "timestart": "2026-11-04T08:00:00",
-          "min": 1.32959,
-          "central": 1.48701,
-          "max": 1.70058
+          "min": 0.852353,
+          "central": 1.01637,
+          "max": 1.21924
         },
         {
           "timestart": "2026-11-04T09:00:00",
-          "min": 1.26644,
-          "central": 1.42386,
-          "max": 1.63742
+          "min": 0.762655,
+          "central": 0.926668,
+          "max": 1.12954
         },
         {
           "timestart": "2026-11-04T10:00:00",
-          "min": 1.17802,
-          "central": 1.33545,
-          "max": 1.54901
+          "min": 0.672956,
+          "central": 0.836969,
+          "max": 1.03984
         },
         {
           "timestart": "2026-11-04T11:00:00",
-          "min": 1.07698,
-          "central": 1.2344,
-          "max": 1.44796
+          "min": 0.634513,
+          "central": 0.798527,
+          "max": 1.0014
         },
         {
           "timestart": "2026-11-04T12:00:00",
-          "min": 0.975935,
-          "central": 1.13336,
-          "max": 1.34692
+          "min": 0.647328,
+          "central": 0.811341,
+          "max": 1.01421
         },
         {
           "timestart": "2026-11-04T13:00:00",
-          "min": 0.87489,
-          "central": 1.03231,
-          "max": 1.24588
+          "min": 0.647328,
+          "central": 0.811341,
+          "max": 1.01421
         },
         {
           "timestart": "2026-11-04T14:00:00",
-          "min": 0.799107,
-          "central": 0.95653,
-          "max": 1.17009
+          "min": 0.634513,
+          "central": 0.798527,
+          "max": 1.0014
         },
         {
           "timestart": "2026-11-04T15:00:00",
-          "min": 0.735954,
-          "central": 0.893377,
-          "max": 1.10694
+          "min": 0.608885,
+          "central": 0.772898,
+          "max": 0.975768
         },
         {
           "timestart": "2026-11-04T16:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.583257,
+          "central": 0.74727,
+          "max": 0.95014
         },
         {
           "timestart": "2026-11-04T17:00:00",
-          "min": 0.660171,
-          "central": 0.817594,
-          "max": 1.03116
+          "min": 0.570443,
+          "central": 0.734456,
+          "max": 0.937326
         },
         {
           "timestart": "2026-11-04T18:00:00",
-          "min": 0.63491,
-          "central": 0.792333,
-          "max": 1.00589
+          "min": 0.544815,
+          "central": 0.708828,
+          "max": 0.911698
         },
         {
           "timestart": "2026-11-04T19:00:00",
-          "min": 0.609648,
-          "central": 0.767072,
-          "max": 0.980633
+          "min": 0.519186,
+          "central": 0.6832,
+          "max": 0.88607
         },
         {
           "timestart": "2026-11-04T20:00:00",
-          "min": 0.584387,
-          "central": 0.741811,
-          "max": 0.955372
+          "min": 0.493558,
+          "central": 0.657571,
+          "max": 0.860441
         },
         {
           "timestart": "2026-11-04T21:00:00",
-          "min": 0.559126,
-          "central": 0.716549,
-          "max": 0.930111
+          "min": 0.480744,
+          "central": 0.644757,
+          "max": 0.847627
         },
         {
           "timestart": "2026-11-04T22:00:00",
-          "min": 0.546496,
-          "central": 0.703919,
-          "max": 0.91748
+          "min": 0.455116,
+          "central": 0.619129,
+          "max": 0.821999
         },
         {
           "timestart": "2026-11-04T23:00:00",
-          "min": 0.533865,
-          "central": 0.691288,
-          "max": 0.90485
+          "min": 0.455116,
+          "central": 0.619129,
+          "max": 0.821999
         },
         {
           "timestart": "2026-11-05T00:00:00",
-          "min": 0.533865,
-          "central": 0.691288,
-          "max": 0.90485
+          "min": 0.46793,
+          "central": 0.631943,
+          "max": 0.834813
         },
         {
           "timestart": "2026-11-05T01:00:00",
-          "min": 0.559126,
-          "central": 0.716549,
-          "max": 0.930111
+          "min": 0.506372,
+          "central": 0.670386,
+          "max": 0.873255
         },
         {
           "timestart": "2026-11-05T02:00:00",
-          "min": 0.63491,
-          "central": 0.792333,
-          "max": 1.00589
+          "min": 0.570443,
+          "central": 0.734456,
+          "max": 0.937326
         },
         {
           "timestart": "2026-11-05T03:00:00",
-          "min": 0.723323,
-          "central": 0.880747,
-          "max": 1.09431
+          "min": 0.660142,
+          "central": 0.824155,
+          "max": 1.02702
         },
         {
           "timestart": "2026-11-05T04:00:00",
-          "min": 0.811737,
-          "central": 0.969161,
-          "max": 1.18272
+          "min": 0.762655,
+          "central": 0.926668,
+          "max": 1.12954
         },
         {
           "timestart": "2026-11-05T05:00:00",
-          "min": 0.900151,
-          "central": 1.05757,
-          "max": 1.27114
+          "min": 0.839539,
+          "central": 1.00355,
+          "max": 1.20642
         },
         {
           "timestart": "2026-11-05T06:00:00",
-          "min": 0.963304,
-          "central": 1.12073,
-          "max": 1.33429
+          "min": 0.90361,
+          "central": 1.06762,
+          "max": 1.27049
         },
         {
           "timestart": "2026-11-05T07:00:00",
-          "min": 1.0012,
-          "central": 1.15862,
-          "max": 1.37218
+          "min": 0.929238,
+          "central": 1.09325,
+          "max": 1.29612
         },
         {
           "timestart": "2026-11-05T08:00:00",
-          "min": 1.02646,
-          "central": 1.18388,
-          "max": 1.39744
+          "min": 0.942052,
+          "central": 1.10607,
+          "max": 1.30894
         },
         {
           "timestart": "2026-11-05T09:00:00",
-          "min": 1.01383,
-          "central": 1.17125,
-          "max": 1.38481
+          "min": 0.929238,
+          "central": 1.09325,
+          "max": 1.29612
         },
         {
           "timestart": "2026-11-05T10:00:00",
-          "min": 0.963304,
-          "central": 1.12073,
-          "max": 1.33429
+          "min": 0.877982,
+          "central": 1.04199,
+          "max": 1.24486
         },
         {
           "timestart": "2026-11-05T11:00:00",
-          "min": 0.887521,
-          "central": 1.04494,
-          "max": 1.25851
+          "min": 0.813911,
+          "central": 0.977924,
+          "max": 1.18079
         },
         {
           "timestart": "2026-11-05T12:00:00",
-          "min": 0.799107,
-          "central": 0.95653,
-          "max": 1.17009
+          "min": 0.737026,
+          "central": 0.90104,
+          "max": 1.10391
         },
         {
           "timestart": "2026-11-05T13:00:00",
-          "min": 0.723323,
-          "central": 0.880747,
-          "max": 1.09431
+          "min": 0.660142,
+          "central": 0.824155,
+          "max": 1.02702
         },
         {
           "timestart": "2026-11-05T14:00:00",
-          "min": 0.660171,
-          "central": 0.817594,
-          "max": 1.03116
+          "min": 0.608885,
+          "central": 0.772898,
+          "max": 0.975768
         },
         {
           "timestart": "2026-11-05T15:00:00",
-          "min": 0.64754,
-          "central": 0.804963,
-          "max": 1.01852
+          "min": 0.583257,
+          "central": 0.74727,
+          "max": 0.95014
         },
         {
           "timestart": "2026-11-05T16:00:00",
-          "min": 0.64754,
-          "central": 0.804963,
-          "max": 1.01852
+          "min": 0.596071,
+          "central": 0.760084,
+          "max": 0.962954
         },
         {
           "timestart": "2026-11-05T17:00:00",
-          "min": 0.660171,
-          "central": 0.817594,
-          "max": 1.03116
+          "min": 0.608885,
+          "central": 0.772898,
+          "max": 0.975768
         },
         {
           "timestart": "2026-11-05T18:00:00",
-          "min": 0.672801,
-          "central": 0.830224,
-          "max": 1.04379
+          "min": 0.621699,
+          "central": 0.785713,
+          "max": 0.988582
         },
         {
           "timestart": "2026-11-05T19:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.634513,
+          "central": 0.798527,
+          "max": 1.0014
         },
         {
           "timestart": "2026-11-05T20:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.647328,
+          "central": 0.811341,
+          "max": 1.01421
         },
         {
           "timestart": "2026-11-05T21:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.634513,
+          "central": 0.798527,
+          "max": 1.0014
         },
         {
           "timestart": "2026-11-05T22:00:00",
-          "min": 0.672801,
-          "central": 0.830224,
-          "max": 1.04379
+          "min": 0.634513,
+          "central": 0.798527,
+          "max": 1.0014
         },
         {
           "timestart": "2026-11-05T23:00:00",
-          "min": 0.64754,
-          "central": 0.804963,
-          "max": 1.01852
+          "min": 0.621699,
+          "central": 0.785713,
+          "max": 0.988582
         },
         {
           "timestart": "2026-11-06T00:00:00",
-          "min": 0.64754,
-          "central": 0.804963,
-          "max": 1.01852
+          "min": 0.608885,
+          "central": 0.772898,
+          "max": 0.975768
         },
         {
           "timestart": "2026-11-06T01:00:00",
-          "min": 0.64754,
-          "central": 0.804963,
-          "max": 1.01852
+          "min": 0.621699,
+          "central": 0.785713,
+          "max": 0.988582
         },
         {
           "timestart": "2026-11-06T02:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.672956,
+          "central": 0.836969,
+          "max": 1.03984
         },
         {
           "timestart": "2026-11-06T03:00:00",
-          "min": 0.761215,
-          "central": 0.918638,
-          "max": 1.1322
+          "min": 0.74984,
+          "central": 0.913854,
+          "max": 1.11672
         },
         {
           "timestart": "2026-11-06T04:00:00",
-          "min": 0.849629,
-          "central": 1.00705,
-          "max": 1.22061
+          "min": 0.839539,
+          "central": 1.00355,
+          "max": 1.20642
         },
         {
           "timestart": "2026-11-06T05:00:00",
-          "min": 0.963304,
-          "central": 1.12073,
-          "max": 1.33429
+          "min": 0.954866,
+          "central": 1.11888,
+          "max": 1.32175
         },
         {
           "timestart": "2026-11-06T06:00:00",
-          "min": 1.05172,
-          "central": 1.20914,
-          "max": 1.4227
+          "min": 1.04457,
+          "central": 1.20858,
+          "max": 1.41145
         },
         {
           "timestart": "2026-11-06T07:00:00",
-          "min": 1.1275,
-          "central": 1.28492,
-          "max": 1.49849
+          "min": 1.10864,
+          "central": 1.27265,
+          "max": 1.47552
         },
         {
           "timestart": "2026-11-06T08:00:00",
-          "min": 1.15276,
-          "central": 1.31019,
-          "max": 1.52375
+          "min": 1.14708,
+          "central": 1.31109,
+          "max": 1.51396
         },
         {
           "timestart": "2026-11-06T09:00:00",
-          "min": 1.15276,
-          "central": 1.31019,
-          "max": 1.52375
+          "min": 1.14708,
+          "central": 1.31109,
+          "max": 1.51396
         },
         {
           "timestart": "2026-11-06T10:00:00",
-          "min": 1.1275,
-          "central": 1.28492,
-          "max": 1.49849
+          "min": 1.12145,
+          "central": 1.28546,
+          "max": 1.48833
         },
         {
           "timestart": "2026-11-06T11:00:00",
-          "min": 1.06435,
-          "central": 1.22177,
-          "max": 1.43533
+          "min": 1.05738,
+          "central": 1.22139,
+          "max": 1.42426
         },
         {
           "timestart": "2026-11-06T12:00:00",
-          "min": 0.988565,
-          "central": 1.14599,
-          "max": 1.35955
+          "min": 0.980494,
+          "central": 1.14451,
+          "max": 1.34738
         },
         {
           "timestart": "2026-11-06T13:00:00",
-          "min": 0.887521,
-          "central": 1.04494,
-          "max": 1.25851
+          "min": 0.877982,
+          "central": 1.04199,
+          "max": 1.24486
         },
         {
           "timestart": "2026-11-06T14:00:00",
-          "min": 0.799107,
-          "central": 0.95653,
-          "max": 1.17009
+          "min": 0.788283,
+          "central": 0.952296,
+          "max": 1.15517
         },
         {
           "timestart": "2026-11-06T15:00:00",
-          "min": 0.723323,
-          "central": 0.880747,
-          "max": 1.09431
+          "min": 0.711398,
+          "central": 0.875411,
+          "max": 1.07828
         },
         {
           "timestart": "2026-11-06T16:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.672956,
+          "central": 0.836969,
+          "max": 1.03984
         },
         {
           "timestart": "2026-11-06T17:00:00",
-          "min": 0.685432,
-          "central": 0.842855,
-          "max": 1.05642
+          "min": 0.660142,
+          "central": 0.824155,
+          "max": 1.02702
         },
         {
           "timestart": "2026-11-06T18:00:00",
-          "min": 0.698062,
-          "central": 0.855486,
-          "max": 1.06905
+          "min": 0.68577,
+          "central": 0.849783,
+          "max": 1.05265
         },
         {
           "timestart": "2026-11-06T19:00:00",
-          "min": 0.735954,
-          "central": 0.893377,
-          "max": 1.10694
+          "min": 0.711398,
+          "central": 0.875411,
+          "max": 1.07828
         },
         {
           "timestart": "2026-11-06T20:00:00",
-          "min": 0.761215,
-          "central": 0.918638,
-          "max": 1.1322
+          "min": 0.737026,
+          "central": 0.90104,
+          "max": 1.10391
         },
         {
           "timestart": "2026-11-06T21:00:00",
-          "min": 0.799107,
-          "central": 0.95653,
-          "max": 1.17009
+          "min": 0.775469,
+          "central": 0.939482,
+          "max": 1.14235
+        },
+        {
+          "timestart": "2026-11-06T22:00:00",
+          "min": 0.788283,
+          "central": 0.952296,
+          "max": 1.15517
+        },
+        {
+          "timestart": "2026-11-06T23:00:00",
+          "min": 0.813911,
+          "central": 0.977924,
+          "max": 1.18079
+        },
+        {
+          "timestart": "2026-11-07T00:00:00",
+          "min": 0.813911,
+          "central": 0.977924,
+          "max": 1.18079
+        },
+        {
+          "timestart": "2026-11-07T01:00:00",
+          "min": 0.839539,
+          "central": 1.00355,
+          "max": 1.20642
+        },
+        {
+          "timestart": "2026-11-07T02:00:00",
+          "min": 0.890796,
+          "central": 1.05481,
+          "max": 1.25768
+        },
+        {
+          "timestart": "2026-11-07T03:00:00",
+          "min": 0.980494,
+          "central": 1.14451,
+          "max": 1.34738
+        },
+        {
+          "timestart": "2026-11-07T04:00:00",
+          "min": 1.09582,
+          "central": 1.25983,
+          "max": 1.4627
+        },
+        {
+          "timestart": "2026-11-07T05:00:00",
+          "min": 1.22396,
+          "central": 1.38798,
+          "max": 1.59085
+        },
+        {
+          "timestart": "2026-11-07T06:00:00",
+          "min": 1.3521,
+          "central": 1.51612,
+          "max": 1.71899
+        },
+        {
+          "timestart": "2026-11-07T07:00:00",
+          "min": 1.48024,
+          "central": 1.64426,
+          "max": 1.84713
+        },
+        {
+          "timestart": "2026-11-07T08:00:00",
+          "min": 1.56994,
+          "central": 1.73396,
+          "max": 1.93683
+        },
+        {
+          "timestart": "2026-11-07T09:00:00",
+          "min": 1.63401,
+          "central": 1.79803,
+          "max": 2.0009
+        },
+        {
+          "timestart": "2026-11-07T10:00:00",
+          "min": 1.65964,
+          "central": 1.82366,
+          "max": 2.02653
+        },
+        {
+          "timestart": "2026-11-07T11:00:00",
+          "min": 1.67246,
+          "central": 1.83647,
+          "max": 2.03934
+        },
+        {
+          "timestart": "2026-11-07T12:00:00",
+          "min": 1.65964,
+          "central": 1.82366,
+          "max": 2.02653
+        },
+        {
+          "timestart": "2026-11-07T13:00:00",
+          "min": 1.63401,
+          "central": 1.79803,
+          "max": 2.0009
+        },
+        {
+          "timestart": "2026-11-07T14:00:00",
+          "min": 1.59557,
+          "central": 1.75959,
+          "max": 1.96245
+        },
+        {
+          "timestart": "2026-11-07T15:00:00",
+          "min": 1.5315,
+          "central": 1.69551,
+          "max": 1.89838
+        },
+        {
+          "timestart": "2026-11-07T16:00:00",
+          "min": 1.48024,
+          "central": 1.64426,
+          "max": 1.84713
+        },
+        {
+          "timestart": "2026-11-07T17:00:00",
+          "min": 1.4418,
+          "central": 1.60582,
+          "max": 1.80869
+        },
+        {
+          "timestart": "2026-11-07T18:00:00",
+          "min": 1.42899,
+          "central": 1.593,
+          "max": 1.79587
+        },
+        {
+          "timestart": "2026-11-07T19:00:00",
+          "min": 1.42899,
+          "central": 1.593,
+          "max": 1.79587
+        },
+        {
+          "timestart": "2026-11-07T20:00:00",
+          "min": 1.42899,
+          "central": 1.593,
+          "max": 1.79587
+        },
+        {
+          "timestart": "2026-11-07T21:00:00",
+          "min": 1.42899,
+          "central": 1.593,
+          "max": 1.79587
         }
       ]
     },
     "san_fernando": {
       "sitecode": 52,
       "modelo": "marea_rdp_regre",
-      "corrida_forecastdate": "2026-11-03T15:00:00",
-      "corid": 1241499,
-      "n_puntos": 88,
+      "corrida_forecastdate": "2026-11-04T03:00:00",
+      "corid": 1241678,
+      "n_puntos": 100,
       "serie": [
         {
           "timestart": "2026-11-04T00:00:00",
-          "min": 1.4141,
-          "central": 1.66043,
-          "max": 1.91189
+          "min": 1.46161,
+          "central": 1.68559,
+          "max": 1.91312
         },
         {
           "timestart": "2026-11-04T01:00:00",
-          "min": 1.64728,
-          "central": 1.89361,
-          "max": 2.14506
+          "min": 1.69151,
+          "central": 1.91549,
+          "max": 2.14301
         },
         {
           "timestart": "2026-11-04T02:00:00",
-          "min": 1.79461,
-          "central": 2.04094,
-          "max": 2.29239
+          "min": 1.83675,
+          "central": 2.06073,
+          "max": 2.28826
         },
         {
           "timestart": "2026-11-04T03:00:00",
-          "min": 1.85022,
-          "central": 2.09655,
-          "max": 2.348
+          "min": 1.87234,
+          "central": 2.09632,
+          "max": 2.32385
         },
         {
           "timestart": "2026-11-04T04:00:00",
-          "min": 1.77412,
-          "central": 2.02044,
-          "max": 2.2719
+          "min": 1.7877,
+          "central": 2.01168,
+          "max": 2.23921
         },
         {
           "timestart": "2026-11-04T05:00:00",
-          "min": 1.62973,
-          "central": 1.87606,
-          "max": 2.12751
+          "min": 1.63572,
+          "central": 1.8597,
+          "max": 2.08723
         },
         {
           "timestart": "2026-11-04T06:00:00",
-          "min": 1.48825,
-          "central": 1.73458,
-          "max": 1.98603
+          "min": 1.49623,
+          "central": 1.72021,
+          "max": 1.94774
         },
         {
           "timestart": "2026-11-04T07:00:00",
-          "min": 1.33215,
-          "central": 1.57848,
-          "max": 1.82993
+          "min": 1.34233,
+          "central": 1.56631,
+          "max": 1.79384
         },
         {
           "timestart": "2026-11-04T08:00:00",
-          "min": 1.13897,
-          "central": 1.3853,
-          "max": 1.63675
+          "min": 1.14225,
+          "central": 1.36623,
+          "max": 1.59376
         },
         {
           "timestart": "2026-11-04T09:00:00",
-          "min": 0.931156,
-          "central": 1.17748,
-          "max": 1.42894
+          "min": 0.937363,
+          "central": 1.16134,
+          "max": 1.38887
         },
         {
           "timestart": "2026-11-04T10:00:00",
-          "min": 0.755538,
-          "central": 1.00186,
-          "max": 1.25332
+          "min": 0.764218,
+          "central": 0.988197,
+          "max": 1.21573
         },
         {
           "timestart": "2026-11-04T11:00:00",
-          "min": 0.639436,
-          "central": 0.885762,
-          "max": 1.13722
+          "min": 0.649749,
+          "central": 0.873729,
+          "max": 1.10126
         },
         {
           "timestart": "2026-11-04T12:00:00",
-          "min": 0.575043,
-          "central": 0.821369,
-          "max": 1.07282
+          "min": 0.586263,
+          "central": 0.810242,
+          "max": 1.03777
         },
         {
           "timestart": "2026-11-04T13:00:00",
-          "min": 0.516504,
-          "central": 0.762829,
-          "max": 1.01428
+          "min": 0.518929,
+          "central": 0.742908,
+          "max": 0.970437
         },
         {
           "timestart": "2026-11-04T14:00:00",
-          "min": 0.485283,
-          "central": 0.731608,
-          "max": 0.983064
+          "min": 0.488147,
+          "central": 0.712127,
+          "max": 0.939655
         },
         {
           "timestart": "2026-11-04T15:00:00",
-          "min": 0.482356,
-          "central": 0.728682,
-          "max": 0.980137
+          "min": 0.466024,
+          "central": 0.690003,
+          "max": 0.917532
         },
         {
           "timestart": "2026-11-04T16:00:00",
-          "min": 0.457965,
-          "central": 0.70429,
-          "max": 0.955745
+          "min": 0.422737,
+          "central": 0.646716,
+          "max": 0.874245
         },
         {
           "timestart": "2026-11-04T17:00:00",
-          "min": 0.419914,
-          "central": 0.666239,
-          "max": 0.917695
+          "min": 0.375603,
+          "central": 0.599583,
+          "max": 0.827111
         },
         {
           "timestart": "2026-11-04T18:00:00",
-          "min": 0.400401,
-          "central": 0.646726,
-          "max": 0.898182
+          "min": 0.346745,
+          "central": 0.570725,
+          "max": 0.798253
         },
         {
           "timestart": "2026-11-04T19:00:00",
-          "min": 0.378937,
-          "central": 0.625262,
-          "max": 0.876718
+          "min": 0.325583,
+          "central": 0.549563,
+          "max": 0.777091
         },
         {
           "timestart": "2026-11-04T20:00:00",
-          "min": 0.365278,
-          "central": 0.611603,
-          "max": 0.863058
+          "min": 0.312116,
+          "central": 0.536096,
+          "max": 0.763624
         },
         {
           "timestart": "2026-11-04T21:00:00",
-          "min": 0.354545,
-          "central": 0.600871,
-          "max": 0.852326
+          "min": 0.311154,
+          "central": 0.535134,
+          "max": 0.762662
         },
         {
           "timestart": "2026-11-04T22:00:00",
-          "min": 0.376985,
-          "central": 0.62331,
-          "max": 0.874765
+          "min": 0.342898,
+          "central": 0.566877,
+          "max": 0.794406
         },
         {
           "timestart": "2026-11-04T23:00:00",
-          "min": 0.434548,
-          "central": 0.680874,
-          "max": 0.932329
+          "min": 0.40927,
+          "central": 0.63325,
+          "max": 0.860778
         },
         {
           "timestart": "2026-11-05T00:00:00",
-          "min": 0.560407,
-          "central": 0.806733,
-          "max": 1.05819
+          "min": 0.542977,
+          "central": 0.766957,
+          "max": 0.994485
         },
         {
           "timestart": "2026-11-05T01:00:00",
-          "min": 0.762368,
-          "central": 1.00869,
-          "max": 1.26015
+          "min": 0.742093,
+          "central": 0.966073,
+          "max": 1.1936
         },
         {
           "timestart": "2026-11-05T02:00:00",
-          "min": 0.969207,
-          "central": 1.21553,
-          "max": 1.46699
+          "min": 0.94602,
+          "central": 1.17,
+          "max": 1.39753
         },
         {
           "timestart": "2026-11-05T03:00:00",
-          "min": 1.13312,
-          "central": 1.37944,
-          "max": 1.6309
+          "min": 1.098,
+          "central": 1.32198,
+          "max": 1.54951
         },
         {
           "timestart": "2026-11-05T04:00:00",
-          "min": 1.22288,
-          "central": 1.4692,
-          "max": 1.72066
+          "min": 1.19612,
+          "central": 1.4201,
+          "max": 1.64763
         },
         {
           "timestart": "2026-11-05T05:00:00",
-          "min": 1.25703,
-          "central": 1.50335,
-          "max": 1.75481
+          "min": 1.2394,
+          "central": 1.46338,
+          "max": 1.69091
         },
         {
           "timestart": "2026-11-05T06:00:00",
-          "min": 1.2541,
-          "central": 1.50042,
-          "max": 1.75188
+          "min": 1.23652,
+          "central": 1.4605,
+          "max": 1.68803
         },
         {
           "timestart": "2026-11-05T07:00:00",
-          "min": 1.19068,
-          "central": 1.43701,
-          "max": 1.68846
+          "min": 1.18361,
+          "central": 1.40759,
+          "max": 1.63512
         },
         {
           "timestart": "2026-11-05T08:00:00",
-          "min": 1.05409,
-          "central": 1.30041,
-          "max": 1.55187
+          "min": 1.04895,
+          "central": 1.27292,
+          "max": 1.50045
         },
         {
           "timestart": "2026-11-05T09:00:00",
-          "min": 0.860909,
-          "central": 1.10723,
-          "max": 1.35869
+          "min": 0.848866,
+          "central": 1.07285,
+          "max": 1.30037
         },
         {
           "timestart": "2026-11-05T10:00:00",
-          "min": 0.659925,
-          "central": 0.906251,
-          "max": 1.15771
+          "min": 0.660331,
+          "central": 0.88431,
+          "max": 1.11184
         },
         {
           "timestart": "2026-11-05T11:00:00",
-          "min": 0.502845,
-          "central": 0.74917,
-          "max": 1.00063
+          "min": 0.505462,
+          "central": 0.729442,
+          "max": 0.95697
         },
         {
           "timestart": "2026-11-05T12:00:00",
-          "min": 0.430646,
-          "central": 0.676972,
-          "max": 0.928427
+          "min": 0.443899,
+          "central": 0.667878,
+          "max": 0.895407
         },
         {
           "timestart": "2026-11-05T13:00:00",
-          "min": 0.445281,
-          "central": 0.691607,
-          "max": 0.943062
+          "min": 0.477566,
+          "central": 0.701545,
+          "max": 0.929074
         },
         {
           "timestart": "2026-11-05T14:00:00",
-          "min": 0.518455,
-          "central": 0.76478,
-          "max": 1.01624
+          "min": 0.559329,
+          "central": 0.783309,
+          "max": 1.01084
         },
         {
           "timestart": "2026-11-05T15:00:00",
-          "min": 0.583824,
-          "central": 0.830149,
-          "max": 1.0816
+          "min": 0.623778,
+          "central": 0.847757,
+          "max": 1.07529
         },
         {
           "timestart": "2026-11-05T16:00:00",
-          "min": 0.624801,
-          "central": 0.871126,
-          "max": 1.12258
+          "min": 0.664178,
+          "central": 0.888157,
+          "max": 1.11569
         },
         {
           "timestart": "2026-11-05T17:00:00",
-          "min": 0.649192,
-          "central": 0.895518,
-          "max": 1.14697
+          "min": 0.678607,
+          "central": 0.902587,
+          "max": 1.13012
         },
         {
           "timestart": "2026-11-05T18:00:00",
-          "min": 0.660901,
-          "central": 0.907226,
-          "max": 1.15868
+          "min": 0.69015,
+          "central": 0.914129,
+          "max": 1.14166
         },
         {
           "timestart": "2026-11-05T19:00:00",
-          "min": 0.656022,
-          "central": 0.902348,
-          "max": 1.1538
+          "min": 0.694959,
+          "central": 0.918939,
+          "max": 1.14647
         },
         {
           "timestart": "2026-11-05T20:00:00",
-          "min": 0.637484,
-          "central": 0.88381,
-          "max": 1.13527
+          "min": 0.667064,
+          "central": 0.891044,
+          "max": 1.11857
         },
         {
           "timestart": "2026-11-05T21:00:00",
-          "min": 0.593581,
-          "central": 0.839906,
-          "max": 1.09136
+          "min": 0.623778,
+          "central": 0.847757,
+          "max": 1.07529
         },
         {
           "timestart": "2026-11-05T22:00:00",
-          "min": 0.56236,
-          "central": 0.808685,
-          "max": 1.06014
+          "min": 0.592996,
+          "central": 0.816975,
+          "max": 1.0445
         },
         {
           "timestart": "2026-11-05T23:00:00",
-          "min": 0.573091,
-          "central": 0.819417,
-          "max": 1.07087
+          "min": 0.603577,
+          "central": 0.827557,
+          "max": 1.05509
         },
         {
           "timestart": "2026-11-06T00:00:00",
-          "min": 0.652119,
-          "central": 0.898445,
-          "max": 1.1499
+          "min": 0.691111,
+          "central": 0.915091,
+          "max": 1.14262
         },
         {
           "timestart": "2026-11-06T01:00:00",
-          "min": 0.813102,
-          "central": 1.05943,
-          "max": 1.31088
+          "min": 0.859448,
+          "central": 1.08343,
+          "max": 1.31096
         },
         {
           "timestart": "2026-11-06T02:00:00",
-          "min": 1.0258,
-          "central": 1.27212,
-          "max": 1.52358
+          "min": 1.06915,
+          "central": 1.29312,
+          "max": 1.52065
         },
         {
           "timestart": "2026-11-06T03:00:00",
-          "min": 1.23556,
-          "central": 1.48189,
-          "max": 1.73334
+          "min": 1.27596,
+          "central": 1.49994,
+          "max": 1.72747
         },
         {
           "timestart": "2026-11-06T04:00:00",
-          "min": 1.39751,
-          "central": 1.64384,
-          "max": 1.8953
+          "min": 1.43564,
+          "central": 1.65962,
+          "max": 1.88715
         },
         {
           "timestart": "2026-11-06T05:00:00",
-          "min": 1.49118,
-          "central": 1.73751,
-          "max": 1.98896
+          "min": 1.51836,
+          "central": 1.74234,
+          "max": 1.96986
         },
         {
           "timestart": "2026-11-06T06:00:00",
-          "min": 1.49509,
-          "central": 1.74141,
-          "max": 1.99287
+          "min": 1.51259,
+          "central": 1.73657,
+          "max": 1.9641
         },
         {
           "timestart": "2026-11-06T07:00:00",
-          "min": 1.43264,
-          "central": 1.67897,
-          "max": 1.93042
+          "min": 1.43179,
+          "central": 1.65577,
+          "max": 1.8833
         },
         {
           "timestart": "2026-11-06T08:00:00",
-          "min": 1.31459,
-          "central": 1.56091,
-          "max": 1.81237
+          "min": 1.30578,
+          "central": 1.52976,
+          "max": 1.75729
         },
         {
           "timestart": "2026-11-06T09:00:00",
-          "min": 1.15361,
-          "central": 1.39993,
-          "max": 1.65139
+          "min": 1.14706,
+          "central": 1.37104,
+          "max": 1.59857
         },
         {
           "timestart": "2026-11-06T10:00:00",
-          "min": 0.95262,
-          "central": 1.19895,
-          "max": 1.4504
+          "min": 0.948905,
+          "central": 1.17288,
+          "max": 1.40041
         },
         {
           "timestart": "2026-11-06T11:00:00",
-          "min": 0.742855,
-          "central": 0.989181,
-          "max": 1.24064
+          "min": 0.742093,
+          "central": 0.966073,
+          "max": 1.1936
         },
         {
           "timestart": "2026-11-06T12:00:00",
-          "min": 0.566261,
-          "central": 0.812587,
-          "max": 1.06404
+          "min": 0.567986,
+          "central": 0.791965,
+          "max": 1.01949
         },
         {
           "timestart": "2026-11-06T13:00:00",
-          "min": 0.473575,
-          "central": 0.7199,
-          "max": 0.971355
+          "min": 0.476604,
+          "central": 0.700583,
+          "max": 0.928112
         },
         {
           "timestart": "2026-11-06T14:00:00",
-          "min": 0.473575,
-          "central": 0.7199,
-          "max": 0.971355
+          "min": 0.476604,
+          "central": 0.700583,
+          "max": 0.928112
         },
         {
           "timestart": "2026-11-06T15:00:00",
-          "min": 0.545773,
-          "central": 0.792099,
-          "max": 1.04355
+          "min": 0.557406,
+          "central": 0.781385,
+          "max": 1.00891
         },
         {
           "timestart": "2026-11-06T16:00:00",
-          "min": 0.649192,
-          "central": 0.895518,
-          "max": 1.14697
+          "min": 0.659369,
+          "central": 0.883349,
+          "max": 1.11088
         },
         {
           "timestart": "2026-11-06T17:00:00",
-          "min": 0.737977,
-          "central": 0.984303,
-          "max": 1.23576
+          "min": 0.746903,
+          "central": 0.970882,
+          "max": 1.19841
         },
         {
           "timestart": "2026-11-06T18:00:00",
-          "min": 0.811151,
-          "central": 1.05748,
-          "max": 1.30893
+          "min": 0.819047,
+          "central": 1.04303,
+          "max": 1.27055
         },
         {
           "timestart": "2026-11-06T19:00:00",
-          "min": 0.896033,
-          "central": 1.14236,
-          "max": 1.39381
+          "min": 0.912353,
+          "central": 1.13633,
+          "max": 1.36386
         },
         {
           "timestart": "2026-11-06T20:00:00",
-          "min": 0.982866,
-          "central": 1.22919,
-          "max": 1.48065
+          "min": 0.988345,
+          "central": 1.21232,
+          "max": 1.43985
         },
         {
           "timestart": "2026-11-06T21:00:00",
-          "min": 1.01409,
-          "central": 1.26041,
-          "max": 1.51187
+          "min": 0.999887,
+          "central": 1.22387,
+          "max": 1.4514
         },
         {
           "timestart": "2026-11-06T22:00:00",
-          "min": 1.00823,
-          "central": 1.25456,
-          "max": 1.50601
+          "min": 0.955639,
+          "central": 1.17962,
+          "max": 1.40715
         },
         {
           "timestart": "2026-11-06T23:00:00",
-          "min": 1.00043,
-          "central": 1.24675,
-          "max": 1.49821
+          "min": 0.947944,
+          "central": 1.17192,
+          "max": 1.39945
         },
         {
           "timestart": "2026-11-07T00:00:00",
-          "min": 1.07458,
-          "central": 1.3209,
-          "max": 1.57236
+          "min": 1.04029,
+          "central": 1.26427,
+          "max": 1.4918
         },
         {
           "timestart": "2026-11-07T01:00:00",
-          "min": 1.27263,
-          "central": 1.51896,
-          "max": 1.77042
+          "min": 1.27403,
+          "central": 1.49801,
+          "max": 1.72554
         },
         {
           "timestart": "2026-11-07T02:00:00",
-          "min": 1.47167,
-          "central": 1.718,
-          "max": 1.96945
+          "min": 1.47989,
+          "central": 1.70387,
+          "max": 1.93139
         },
         {
           "timestart": "2026-11-07T03:00:00",
-          "min": 1.65705,
-          "central": 1.90337,
-          "max": 2.15483
+          "min": 1.68189,
+          "central": 1.90587,
+          "max": 2.1334
         },
         {
           "timestart": "2026-11-07T04:00:00",
-          "min": 1.85022,
-          "central": 2.09655,
-          "max": 2.348
+          "min": 1.88197,
+          "central": 2.10595,
+          "max": 2.33348
         },
         {
           "timestart": "2026-11-07T05:00:00",
-          "min": 2.01803,
-          "central": 2.26436,
-          "max": 2.51581
+          "min": 2.05704,
+          "central": 2.28102,
+          "max": 2.50855
         },
         {
           "timestart": "2026-11-07T06:00:00",
-          "min": 2.12926,
-          "central": 2.37559,
-          "max": 2.62704
+          "min": 2.17631,
+          "central": 2.40029,
+          "max": 2.62782
         },
         {
           "timestart": "2026-11-07T07:00:00",
-          "min": 2.1839,
-          "central": 2.43023,
+          "min": 2.23018,
+          "central": 2.45416,
           "max": 2.68168
         },
         {
           "timestart": "2026-11-07T08:00:00",
-          "min": 2.19072,
-          "central": 2.43705,
-          "max": 2.6885
+          "min": 2.2273,
+          "central": 2.45128,
+          "max": 2.67881
         },
         {
           "timestart": "2026-11-07T09:00:00",
-          "min": 2.15853,
-          "central": 2.40485,
-          "max": 2.65631
+          "min": 2.17631,
+          "central": 2.40029,
+          "max": 2.62782
         },
         {
           "timestart": "2026-11-07T10:00:00",
-          "min": 2.05901,
-          "central": 2.30534,
-          "max": 2.55679
+          "min": 2.06857,
+          "central": 2.29255,
+          "max": 2.52008
         },
         {
           "timestart": "2026-11-07T11:00:00",
-          "min": 1.87071,
-          "central": 2.11704,
-          "max": 2.3685
+          "min": 1.88293,
+          "central": 2.10691,
+          "max": 2.33444
         },
         {
           "timestart": "2026-11-07T12:00:00",
-          "min": 1.65412,
-          "central": 1.90044,
-          "max": 2.1519
+          "min": 1.68862,
+          "central": 1.9126,
+          "max": 2.14012
         },
         {
           "timestart": "2026-11-07T13:00:00",
-          "min": 1.53899,
-          "central": 1.78532,
-          "max": 2.03677
+          "min": 1.55588,
+          "central": 1.77986,
+          "max": 2.00739
         },
         {
           "timestart": "2026-11-07T14:00:00",
-          "min": 1.57801,
-          "central": 1.82434,
-          "max": 2.07579
+          "min": 1.5655,
+          "central": 1.78948,
+          "max": 2.017
         },
         {
           "timestart": "2026-11-07T15:00:00",
-          "min": 1.71363,
-          "central": 1.95996,
-          "max": 2.21141
+          "min": 1.67034,
+          "central": 1.89432,
+          "max": 2.12185
+        },
+        {
+          "timestart": "2026-11-07T16:00:00",
+          "min": 1.75884,
+          "central": 1.98282,
+          "max": 2.21035
+        },
+        {
+          "timestart": "2026-11-07T17:00:00",
+          "min": 1.76846,
+          "central": 1.99244,
+          "max": 2.21996
+        },
+        {
+          "timestart": "2026-11-07T18:00:00",
+          "min": 1.71074,
+          "central": 1.93472,
+          "max": 2.16225
+        },
+        {
+          "timestart": "2026-11-07T19:00:00",
+          "min": 1.60301,
+          "central": 1.82699,
+          "max": 2.05451
+        },
+        {
+          "timestart": "2026-11-07T20:00:00",
+          "min": 1.5376,
+          "central": 1.76158,
+          "max": 1.98911
+        },
+        {
+          "timestart": "2026-11-07T21:00:00",
+          "min": 1.51259,
+          "central": 1.73657,
+          "max": 1.9641
+        },
+        {
+          "timestart": "2026-11-07T22:00:00",
+          "min": 1.46834,
+          "central": 1.69232,
+          "max": 1.91985
+        },
+        {
+          "timestart": "2026-11-07T23:00:00",
+          "min": 1.35964,
+          "central": 1.58362,
+          "max": 1.81115
+        },
+        {
+          "timestart": "2026-11-08T00:00:00",
+          "min": 1.24806,
+          "central": 1.47204,
+          "max": 1.69957
+        },
+        {
+          "timestart": "2026-11-08T01:00:00",
+          "min": 1.1663,
+          "central": 1.39028,
+          "max": 1.61781
+        },
+        {
+          "timestart": "2026-11-08T02:00:00",
+          "min": 1.1663,
+          "central": 1.39028,
+          "max": 1.61781
+        },
+        {
+          "timestart": "2026-11-08T03:00:00",
+          "min": 1.20093,
+          "central": 1.42491,
+          "max": 1.65244
         }
       ]
     }
