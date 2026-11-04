@@ -1,33 +1,24 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-02&timeEnd=2026-11-03&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-03&timeEnd=2026-11-04&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-11-02",
-      "timeEnd": "2026-11-03",
+      "timeStart": "2026-11-03",
+      "timeEnd": "2026-11-04",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "timeStart": "20261102T000000",
-      "request": "datos",
+      "queryUrl": "request=datos&timeStart=2026-11-03&timeEnd=2026-11-04&siteCode=19&varId=2&format=json",
+      "seriesid": 19,
       "sitecode": 19,
-      "timeEnd": "20261103T000000",
-      "seriesmetadata": {
-        "proc_abrev": "medicion",
-        "var_abrev": "altura",
-        "varId": 2,
-        "unit_abrev": "m",
-        "procId": 1,
-        "unitId": 11,
-        "seriesId": 19
-      },
-      "responseTimestamp": "2026-11-03T13:51:39",
-      "queryUrl": "request=datos&timeStart=2026-11-02&timeEnd=2026-11-03&siteCode=19&varId=2&format=json",
+      "request": "datos",
+      "timeEnd": "20261104T000000",
+      "seriesId": "19\n",
+      "responseTimestamp": "2026-11-04T13:54:20",
       "sitemetadata": {
         "red_name": "escalas Prefectura Nacional",
-        "redId": 10,
         "estacion_abrev": "CORR",
         "geom": {
           "coordinates": [
@@ -36,26 +27,35 @@
           ],
           "type": "Point"
         },
+        "redId": 10,
         "siteCode": 19
       },
-      "creationTime": "2026-11-03T13:51:39-03:00",
-      "seriesid": 19,
-      "seriesId": "19\n"
+      "creationTime": "2026-11-04T13:54:20-03:00",
+      "timeStart": "20261103T000000",
+      "seriesmetadata": {
+        "seriesId": 19,
+        "varId": 2,
+        "unitId": 11,
+        "var_abrev": "altura",
+        "procId": 1,
+        "unit_abrev": "m",
+        "proc_abrev": "medicion"
+      }
     },
     "data": [
-      {
-        "obs_id": 29630689964,
-        "timestart": "2026-11-02T00:00:00",
-        "timeend": "2026-11-02T00:00:00",
-        "valor": 7.11,
-        "timeupdate": "2026-11-02T11:35:22.137802"
-      },
       {
         "obs_id": 29641114561,
         "timestart": "2026-11-03T00:00:00",
         "timeend": "2026-11-03T00:00:00",
         "valor": 7.06,
         "timeupdate": "2026-11-03T11:34:04.437458"
+      },
+      {
+        "obs_id": 29651524445,
+        "timestart": "2026-11-04T00:00:00",
+        "timeend": "2026-11-04T00:00:00",
+        "valor": 7.02,
+        "timeupdate": "2026-11-04T11:34:05.830364"
       }
     ]
   }
