@@ -1,106 +1,106 @@
 {
-  "inicio": "2026-11-14T15:37:08.722118Z",
+  "inicio": "2026-11-15T16:07:10.692075Z",
   "estaciones": {
     "corrientes": {
       "sitecode": 19,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "barranqueras": {
       "sitecode": 20,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "goya": {
       "sitecode": 23,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "parana_ciudad": {
       "sitecode": 29,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "santa_fe": {
       "sitecode": 30,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "diamante": {
       "sitecode": 31,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "victoria": {
       "sitecode": 32,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "san_lorenzo_san_martin": {
       "sitecode": 33,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "rosario": {
       "sitecode": 34,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "villa_constitucion": {
       "sitecode": 35,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "san_nicolas": {
       "sitecode": 36,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "ramallo": {
       "sitecode": 37,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "san_pedro": {
       "sitecode": 38,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "baradero": {
       "sitecode": 39,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "campana": {
       "sitecode": 41,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "ibicuy": {
       "sitecode": 45,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "martin_garcia": {
       "sitecode": 47,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "san_fernando": {
       "sitecode": 52,
       "filas_agregadas_esta_corrida": 24,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "buenos_aires": {
       "sitecode": 85,
       "filas_agregadas_esta_corrida": 25,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     },
     "la_plata": {
       "sitecode": 86,
       "filas_agregadas_esta_corrida": 1,
-      "sincronizado_hasta": "2026-11-14T15:37:08.722107"
+      "sincronizado_hasta": "2026-11-15T16:07:10.692061"
     }
   },
-  "fin": "2026-11-14T15:38:11.594939Z"
+  "fin": "2026-11-15T16:08:12.286052Z"
 }
