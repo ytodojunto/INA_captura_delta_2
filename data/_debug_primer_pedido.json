@@ -1,30 +1,17 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-18&timeEnd=2026-11-19&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-19&timeEnd=2026-11-20&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-11-18",
-      "timeEnd": "2026-11-19",
+      "timeStart": "2026-11-19",
+      "timeEnd": "2026-11-20",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "seriesmetadata": {
-        "seriesId": 19,
-        "varId": 2,
-        "unit_abrev": "m",
-        "proc_abrev": "medicion",
-        "var_abrev": "altura",
-        "procId": 1,
-        "unitId": 11
-      },
-      "seriesId": "19\n",
-      "timeEnd": "20261119T000000",
-      "seriesid": 19,
+      "timeEnd": "20261120T000000",
       "sitemetadata": {
-        "red_name": "escalas Prefectura Nacional",
-        "siteCode": 19,
         "geom": {
           "type": "Point",
           "coordinates": [
@@ -32,30 +19,43 @@
             -27.46364349
           ]
         },
+        "red_name": "escalas Prefectura Nacional",
         "estacion_abrev": "CORR",
+        "siteCode": 19,
         "redId": 10
       },
-      "creationTime": "2026-11-19T14:59:42-03:00",
+      "creationTime": "2026-11-20T14:35:54-03:00",
+      "sitecode": 19,
       "request": "datos",
-      "queryUrl": "request=datos&timeStart=2026-11-18&timeEnd=2026-11-19&siteCode=19&varId=2&format=json",
-      "timeStart": "20261118T000000",
-      "responseTimestamp": "2026-11-19T14:59:42",
-      "sitecode": 19
+      "timeStart": "20261119T000000",
+      "queryUrl": "request=datos&timeStart=2026-11-19&timeEnd=2026-11-20&siteCode=19&varId=2&format=json",
+      "seriesid": 19,
+      "seriesId": "19\n",
+      "seriesmetadata": {
+        "proc_abrev": "medicion",
+        "procId": 1,
+        "seriesId": 19,
+        "varId": 2,
+        "unitId": 11,
+        "var_abrev": "altura",
+        "unit_abrev": "m"
+      },
+      "responseTimestamp": "2026-11-20T14:35:55"
     },
     "data": [
-      {
-        "obs_id": 29809824384,
-        "timestart": "2026-11-18T00:00:00",
-        "timeend": "2026-11-18T00:00:00",
-        "valor": 6.2,
-        "timeupdate": "2026-11-18T11:33:58.281055"
-      },
       {
         "obs_id": 29820070249,
         "timestart": "2026-11-19T00:00:00",
         "timeend": "2026-11-19T00:00:00",
         "valor": 6.08,
         "timeupdate": "2026-11-19T11:34:53.895479"
+      },
+      {
+        "obs_id": 29830318943,
+        "timestart": "2026-11-20T00:00:00",
+        "timeend": "2026-11-20T00:00:00",
+        "valor": 5.93,
+        "timeupdate": "2026-11-20T11:34:22.244144"
       }
     ]
   }
