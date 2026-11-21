@@ -1,17 +1,19 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-19&timeEnd=2026-11-20&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-20&timeEnd=2026-11-21&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-11-19",
-      "timeEnd": "2026-11-20",
+      "timeStart": "2026-11-20",
+      "timeEnd": "2026-11-21",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "timeEnd": "20261120T000000",
+      "seriesid": 19,
+      "responseTimestamp": "2026-11-21T13:38:03",
       "sitemetadata": {
+        "red_name": "escalas Prefectura Nacional",
         "geom": {
           "type": "Point",
           "coordinates": [
@@ -19,43 +21,41 @@
             -27.46364349
           ]
         },
-        "red_name": "escalas Prefectura Nacional",
         "estacion_abrev": "CORR",
         "siteCode": 19,
         "redId": 10
       },
-      "creationTime": "2026-11-20T14:35:54-03:00",
-      "sitecode": 19,
+      "timeStart": "20261120T000000",
       "request": "datos",
-      "timeStart": "20261119T000000",
-      "queryUrl": "request=datos&timeStart=2026-11-19&timeEnd=2026-11-20&siteCode=19&varId=2&format=json",
-      "seriesid": 19,
-      "seriesId": "19\n",
       "seriesmetadata": {
-        "proc_abrev": "medicion",
-        "procId": 1,
-        "seriesId": 19,
-        "varId": 2,
-        "unitId": 11,
         "var_abrev": "altura",
-        "unit_abrev": "m"
+        "unit_abrev": "m",
+        "proc_abrev": "medicion",
+        "varId": 2,
+        "procId": 1,
+        "unitId": 11,
+        "seriesId": 19
       },
-      "responseTimestamp": "2026-11-20T14:35:55"
+      "seriesId": "19\n",
+      "sitecode": 19,
+      "queryUrl": "request=datos&timeStart=2026-11-20&timeEnd=2026-11-21&siteCode=19&varId=2&format=json",
+      "timeEnd": "20261121T000000",
+      "creationTime": "2026-11-21T13:38:03-03:00"
     },
     "data": [
-      {
-        "obs_id": 29820070249,
-        "timestart": "2026-11-19T00:00:00",
-        "timeend": "2026-11-19T00:00:00",
-        "valor": 6.08,
-        "timeupdate": "2026-11-19T11:34:53.895479"
-      },
       {
         "obs_id": 29830318943,
         "timestart": "2026-11-20T00:00:00",
         "timeend": "2026-11-20T00:00:00",
         "valor": 5.93,
         "timeupdate": "2026-11-20T11:34:22.244144"
+      },
+      {
+        "obs_id": 29841482977,
+        "timestart": "2026-11-21T00:00:00",
+        "timeend": "2026-11-21T00:00:00",
+        "valor": 5.85,
+        "timeupdate": "2026-11-21T13:34:28.366571"
       }
     ]
   }
