@@ -1,61 +1,61 @@
 {
-  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-23&timeEnd=2026-11-24&siteCode=19&varId=2&format=json",
+  "url_pedida": "https://alerta.ina.gob.ar/pub/datos/datos?timeStart=2026-11-24&timeEnd=2026-11-25&siteCode=19&varId=2&format=json",
   "respuesta_cruda": {
     "requestHeader": {
       "request": "datos",
-      "timeStart": "2026-11-23",
-      "timeEnd": "2026-11-24",
+      "timeStart": "2026-11-24",
+      "timeEnd": "2026-11-25",
       "siteCode": "19",
       "varId": "2",
       "format": "json"
     },
     "responseHeader": {
-      "responseTimestamp": "2026-11-24T16:59:18",
       "request": "datos",
-      "sitecode": 19,
       "sitemetadata": {
         "red_name": "escalas Prefectura Nacional",
         "estacion_abrev": "CORR",
-        "siteCode": 19,
         "geom": {
-          "type": "Point",
           "coordinates": [
             -58.8388696,
             -27.46364349
-          ]
+          ],
+          "type": "Point"
         },
-        "redId": 10
+        "redId": 10,
+        "siteCode": 19
       },
-      "timeStart": "20261123T000000",
-      "creationTime": "2026-11-24T16:59:18-03:00",
-      "timeEnd": "20261124T000000",
-      "queryUrl": "request=datos&timeStart=2026-11-23&timeEnd=2026-11-24&siteCode=19&varId=2&format=json",
       "seriesid": 19,
+      "timeStart": "20261124T000000",
+      "responseTimestamp": "2026-11-25T15:59:44",
+      "sitecode": 19,
+      "creationTime": "2026-11-25T15:59:44-03:00",
+      "queryUrl": "request=datos&timeStart=2026-11-24&timeEnd=2026-11-25&siteCode=19&varId=2&format=json",
+      "timeEnd": "20261125T000000",
       "seriesId": "19\n",
       "seriesmetadata": {
-        "var_abrev": "altura",
-        "unitId": 11,
-        "varId": 2,
         "proc_abrev": "medicion",
+        "var_abrev": "altura",
+        "varId": 2,
         "unit_abrev": "m",
+        "procId": 1,
         "seriesId": 19,
-        "procId": 1
+        "unitId": 11
       }
     },
     "data": [
-      {
-        "obs_id": 29862519999,
-        "timestart": "2026-11-23T00:00:00",
-        "timeend": "2026-11-23T00:00:00",
-        "valor": 5.68,
-        "timeupdate": "2026-11-23T14:33:22.184527"
-      },
       {
         "obs_id": 29871439703,
         "timestart": "2026-11-24T00:00:00",
         "timeend": "2026-11-24T00:00:00",
         "valor": 5.63,
         "timeupdate": "2026-11-24T11:37:43.566399"
+      },
+      {
+        "obs_id": 29881739675,
+        "timestart": "2026-11-25T00:00:00",
+        "timeend": "2026-11-25T00:00:00",
+        "valor": 5.67,
+        "timeupdate": "2026-11-25T11:35:55.256132"
       }
     ]
   }
